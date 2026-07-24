@@ -35,3 +35,8 @@ export function markKnown(id: string) {
   ids.delete(id);
   save(ids);
 }
+
+// 오답 목록 전체 비우기.
+export function clearAllUnknown() {
+  save(new Set());
+}

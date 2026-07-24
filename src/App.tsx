@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import SearchPage from "./pages/SearchPage";
 import FlashcardPage from "./pages/FlashcardPage";
 import QuizPage from "./pages/QuizPage";
+import WrongNotePage from "./pages/WrongNotePage";
 
 // App = 전체 뼈대 + 라우팅 (프로젝트 리더가 주로 관리).
 // 각 페이지는 담당자가 자기 브랜치에서 채운다.
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/search" element={<SearchPage />} />
           <Route path="/flashcard" element={<FlashcardPage />} />
           <Route path="/quiz" element={<QuizPage />} />
+          <Route path="/wrong-note" element={<WrongNotePage />} />
         </Routes>
       </main>
     </div>

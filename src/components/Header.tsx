@@ -12,6 +12,7 @@ export default function Header() {
         <NavLink to="/search">검색</NavLink>
         <NavLink to="/flashcard">플래시카드</NavLink>
         <NavLink to="/quiz">퀴즈</NavLink>
+        <NavLink to="/wrong-note">오답노트</NavLink>
       </nav>
     </header>
   );
