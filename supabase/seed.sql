@@ -30,3 +30,24 @@ insert into public.terms (id, english, korean, meaning, category) values
   ('term-001', 'Hypertension', '고혈압', '혈압이 정상보다 높은 상태.', '순환기계'),
   ('term-002', 'Tachycardia', '빈맥', '심장 박동이 정상보다 빠른 상태.', '순환기계')
 on conflict (id) do nothing;
+
+
+-- ============================================================
+-- 단어 추가 요청 게시판 (term_requests)
+-- 누구나 로그인 없이 "추가했으면 하는 용어"를 올리는 공용 게시판.
+-- 개인정보는 받지 않는다(용어/뜻만).
+-- ============================================================
+create table if not exists public.term_requests (
+  id uuid primary key default gen_random_uuid(),
+  english text not null,
+  meaning text not null,
+  created_at timestamptz not null default now()
+);
+
+alter table public.term_requests enable row level security;
+
+create policy "요청 읽기 가능" on public.term_requests
+  for select using (true);
+
+create policy "요청 등록 가능" on public.term_requests
+  for insert with check (true);
