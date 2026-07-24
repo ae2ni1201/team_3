@@ -13,6 +13,7 @@ export default function Header() {
         <NavLink to="/flashcard">플래시카드</NavLink>
         <NavLink to="/quiz">퀴즈</NavLink>
         <NavLink to="/wrong-note">오답노트</NavLink>
+        <NavLink to="/requests">단어요청</NavLink>
         <NavLink to="/data">데이터</NavLink>
       </nav>
     </header>
