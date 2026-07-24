@@ -67,7 +67,8 @@ export default function SearchPage() {
         <ul className="term-list">
           {results.map((t) => (
             <li key={t.id} className="term-item">
-              <strong>{t.english}</strong> · {t.korean}
+              <strong>{t.english}</strong>
+              {t.korean ? ` · ${t.korean}` : ""}
               <p>{t.meaning}</p>
               {t.category && <span className="badge">{t.category}</span>}
             </li>

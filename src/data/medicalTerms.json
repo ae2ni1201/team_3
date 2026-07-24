@@ -1,0 +1,5552 @@
+[
+  {
+    "id": "term-0001",
+    "english": "abdominal pain",
+    "meaning": "복통"
+  },
+  {
+    "id": "term-0002",
+    "english": "abortion",
+    "meaning": "유산"
+  },
+  {
+    "id": "term-0003",
+    "english": "abruptio placenta",
+    "meaning": "태반족박리"
+  },
+  {
+    "id": "term-0004",
+    "english": "abscess",
+    "meaning": "농양"
+  },
+  {
+    "id": "term-0005",
+    "english": "abstinence",
+    "meaning": "금단"
+  },
+  {
+    "id": "term-0006",
+    "english": "achromatopsia",
+    "meaning": "색맹"
+  },
+  {
+    "id": "term-0007",
+    "english": "acidosis",
+    "meaning": "산증"
+  },
+  {
+    "id": "term-0008",
+    "english": "acne vulgaris",
+    "meaning": "여드름, 심상성 좌창"
+  },
+  {
+    "id": "term-0009",
+    "english": "acromegaly",
+    "meaning": "말단비대증"
+  },
+  {
+    "id": "term-0010",
+    "english": "acrophobia",
+    "meaning": "고소 공포증"
+  },
+  {
+    "id": "term-0011",
+    "english": "acute illness",
+    "meaning": "급성 질병"
+  },
+  {
+    "id": "term-0012",
+    "english": "acute pain",
+    "meaning": "급성 통증"
+  },
+  {
+    "id": "term-0013",
+    "english": "adaptive regression",
+    "meaning": "적응적 퇴행"
+  },
+  {
+    "id": "term-0014",
+    "english": "addiction",
+    "meaning": "습관성 중독"
+  },
+  {
+    "id": "term-0015",
+    "english": "Addison's disease",
+    "meaning": "애디슨병"
+  },
+  {
+    "id": "term-0016",
+    "english": "adenocarcinoma",
+    "meaning": "선암"
+  },
+  {
+    "id": "term-0017",
+    "english": "adenoidectomy",
+    "meaning": "아데노이드 절제술"
+  },
+  {
+    "id": "term-0018",
+    "english": "adenomyosis of the uterus",
+    "meaning": "자궁선근증"
+  },
+  {
+    "id": "term-0019",
+    "english": "admission",
+    "meaning": "입원"
+  },
+  {
+    "id": "term-0020",
+    "english": "adrenalectomy",
+    "meaning": "부신절제술"
+  },
+  {
+    "id": "term-0021",
+    "english": "adventitious lung sound",
+    "meaning": "비정상적 후흡음, 이상음"
+  },
+  {
+    "id": "term-0022",
+    "english": "aerobic",
+    "meaning": "호기성의"
+  },
+  {
+    "id": "term-0023",
+    "english": "afterload",
+    "meaning": "후부하"
+  },
+  {
+    "id": "term-0024",
+    "english": "afterpains",
+    "meaning": "산후통"
+  },
+  {
+    "id": "term-0025",
+    "english": "agnosia",
+    "meaning": "인지장애, 실인증"
+  },
+  {
+    "id": "term-0026",
+    "english": "agoraphobia",
+    "meaning": "광장 공포증"
+  },
+  {
+    "id": "term-0027",
+    "english": "agranulocytosis",
+    "meaning": "무과립구증, 무과립세포증"
+  },
+  {
+    "id": "term-0028",
+    "english": "airway",
+    "meaning": "기도"
+  },
+  {
+    "id": "term-0029",
+    "english": "akinesia",
+    "meaning": "운동불능"
+  },
+  {
+    "id": "term-0030",
+    "english": "albinism",
+    "meaning": "백피증, 백색증"
+  },
+  {
+    "id": "term-0031",
+    "english": "alcohol blackout",
+    "meaning": "알코올(성) 일과성, 기억상실"
+  },
+  {
+    "id": "term-0032",
+    "english": "alcohol intoxication",
+    "meaning": "알코올중독"
+  },
+  {
+    "id": "term-0033",
+    "english": "alcohol swabs",
+    "meaning": "알코올 솜"
+  },
+  {
+    "id": "term-0034",
+    "english": "aldosteronism",
+    "meaning": "알도스테론증"
+  },
+  {
+    "id": "term-0035",
+    "english": "alopecia",
+    "meaning": "탈모증"
+  },
+  {
+    "id": "term-0036",
+    "english": "Alzheimer's disease",
+    "meaning": "알츠하이머병"
+  },
+  {
+    "id": "term-0037",
+    "english": "ambivalence",
+    "meaning": "양가감정"
+  },
+  {
+    "id": "term-0038",
+    "english": "amblyopia",
+    "meaning": "약시"
+  },
+  {
+    "id": "term-0039",
+    "english": "ambulation",
+    "meaning": "보행"
+  },
+  {
+    "id": "term-0040",
+    "english": "amelia",
+    "meaning": "무지증, 사지결손증"
+  },
+  {
+    "id": "term-0041",
+    "english": "amenorrhea",
+    "meaning": "무월경"
+  },
+  {
+    "id": "term-0042",
+    "english": "amnesia",
+    "meaning": "기억상실"
+  },
+  {
+    "id": "term-0043",
+    "english": "amniocentesis",
+    "meaning": "양수천자"
+  },
+  {
+    "id": "term-0044",
+    "english": "amnion",
+    "meaning": "양막"
+  },
+  {
+    "id": "term-0045",
+    "english": "amniotic fluid",
+    "meaning": "양수천자"
+  },
+  {
+    "id": "term-0046",
+    "english": "amniotic fluid embolism",
+    "meaning": "양수색전증"
+  },
+  {
+    "id": "term-0047",
+    "english": "amniotomy",
+    "meaning": "양막절개"
+  },
+  {
+    "id": "term-0048",
+    "english": "amputation",
+    "meaning": "절단"
+  },
+  {
+    "id": "term-0049",
+    "english": "anaerobic",
+    "meaning": "혐기성의"
+  },
+  {
+    "id": "term-0050",
+    "english": "anal fissure",
+    "meaning": "항문열상, 치열"
+  },
+  {
+    "id": "term-0051",
+    "english": "anal fistula",
+    "meaning": "치루"
+  },
+  {
+    "id": "term-0052",
+    "english": "analgesia",
+    "meaning": "무통각"
+  },
+  {
+    "id": "term-0053",
+    "english": "analgesics",
+    "meaning": "진통제"
+  },
+  {
+    "id": "term-0054",
+    "english": "anastomosis",
+    "meaning": "문합술"
+  },
+  {
+    "id": "term-0055",
+    "english": "anemia",
+    "meaning": "빈혈"
+  },
+  {
+    "id": "term-0056",
+    "english": "anencephaly",
+    "meaning": "무뇌증"
+  },
+  {
+    "id": "term-0057",
+    "english": "anesthesia",
+    "meaning": "마취, 마비"
+  },
+  {
+    "id": "term-0058",
+    "english": "angina pectoris",
+    "meaning": "협심증"
+  },
+  {
+    "id": "term-0059",
+    "english": "angiocardiography",
+    "meaning": "실혐관조영술"
+  },
+  {
+    "id": "term-0060",
+    "english": "angiography",
+    "meaning": "혈관조영술"
+  },
+  {
+    "id": "term-0061",
+    "english": "anhydrosis",
+    "meaning": "무한증"
+  },
+  {
+    "id": "term-0062",
+    "english": "ankylosis",
+    "meaning": "강직"
+  },
+  {
+    "id": "term-0063",
+    "english": "anorexia",
+    "meaning": "식욕부진"
+  },
+  {
+    "id": "term-0064",
+    "english": "anorexia nervosa",
+    "meaning": "신경성 식욕부진증"
+  },
+  {
+    "id": "term-0065",
+    "english": "anovulatory",
+    "meaning": "무배란"
+  },
+  {
+    "id": "term-0066",
+    "english": "anoxia",
+    "meaning": "산호결핍(무산소상태)"
+  },
+  {
+    "id": "term-0067",
+    "english": "antepartum",
+    "meaning": "산전(분만전)"
+  },
+  {
+    "id": "term-0068",
+    "english": "anterior fontanel",
+    "meaning": "대천문"
+  },
+  {
+    "id": "term-0069",
+    "english": "anthropophobia",
+    "meaning": "대인공포증"
+  },
+  {
+    "id": "term-0070",
+    "english": "antiacid",
+    "meaning": "제산제"
+  },
+  {
+    "id": "term-0071",
+    "english": "antibody",
+    "meaning": "항체"
+  },
+  {
+    "id": "term-0072",
+    "english": "anticoagulant",
+    "meaning": "항응고제"
+  },
+  {
+    "id": "term-0073",
+    "english": "antiemetic",
+    "meaning": "진토제(구토방지제)"
+  },
+  {
+    "id": "term-0074",
+    "english": "antigen",
+    "meaning": "항원"
+  },
+  {
+    "id": "term-0075",
+    "english": "antipsychotic drugs",
+    "meaning": "항정신병 약물"
+  },
+  {
+    "id": "term-0076",
+    "english": "antipyretic",
+    "meaning": "해열제"
+  },
+  {
+    "id": "term-0077",
+    "english": "antisocial personality disorder",
+    "meaning": "반사회성 인격장애"
+  },
+  {
+    "id": "term-0078",
+    "english": "anuria",
+    "meaning": "무뇨"
+  },
+  {
+    "id": "term-0079",
+    "english": "anxiety",
+    "meaning": "불안"
+  },
+  {
+    "id": "term-0080",
+    "english": "anxiety disorder",
+    "meaning": "불안장애"
+  },
+  {
+    "id": "term-0081",
+    "english": "aortic dissection",
+    "meaning": "대동맥박리"
+  },
+  {
+    "id": "term-0082",
+    "english": "aphagia",
+    "meaning": "연하불능"
+  },
+  {
+    "id": "term-0083",
+    "english": "aphasia",
+    "meaning": "실어증"
+  },
+  {
+    "id": "term-0084",
+    "english": "aplastic anemia",
+    "meaning": "재생불량성 빈혈"
+  },
+  {
+    "id": "term-0085",
+    "english": "apnea",
+    "meaning": "무호흡"
+  },
+  {
+    "id": "term-0086",
+    "english": "appearing",
+    "meaning": "배림"
+  },
+  {
+    "id": "term-0087",
+    "english": "appendicitis",
+    "meaning": "충수돌기염, 맹장염"
+  },
+  {
+    "id": "term-0088",
+    "english": "apperception",
+    "meaning": "통각"
+  },
+  {
+    "id": "term-0089",
+    "english": "applicator",
+    "meaning": "면봉"
+  },
+  {
+    "id": "term-0090",
+    "english": "areola",
+    "meaning": "유륜"
+  },
+  {
+    "id": "term-0091",
+    "english": "arousal",
+    "meaning": "각성"
+  },
+  {
+    "id": "term-0092",
+    "english": "arrhythmia",
+    "meaning": "부정맥"
+  },
+  {
+    "id": "term-0093",
+    "english": "art therapy",
+    "meaning": "미술치료"
+  },
+  {
+    "id": "term-0094",
+    "english": "arterial blood pressure",
+    "meaning": "동맥압"
+  },
+  {
+    "id": "term-0095",
+    "english": "arteriography",
+    "meaning": "동맥촬영술"
+  },
+  {
+    "id": "term-0096",
+    "english": "arteriopuncture",
+    "meaning": "동맥천자"
+  },
+  {
+    "id": "term-0097",
+    "english": "arteriosclerosis",
+    "meaning": "동맥경화증"
+  },
+  {
+    "id": "term-0098",
+    "english": "arthralgia",
+    "meaning": "관절통"
+  },
+  {
+    "id": "term-0099",
+    "english": "ascites",
+    "meaning": "복수"
+  },
+  {
+    "id": "term-0100",
+    "english": "asepsis",
+    "meaning": "무균법"
+  },
+  {
+    "id": "term-0101",
+    "english": "Asherman's syndrome",
+    "meaning": "애셔만 증후군"
+  },
+  {
+    "id": "term-0102",
+    "english": "asphyxiation",
+    "meaning": "질식"
+  },
+  {
+    "id": "term-0103",
+    "english": "aspiration",
+    "meaning": "흡인"
+  },
+  {
+    "id": "term-0104",
+    "english": "assessing",
+    "meaning": "사정"
+  },
+  {
+    "id": "term-0105",
+    "english": "asthenia",
+    "meaning": "무력증"
+  },
+  {
+    "id": "term-0106",
+    "english": "asthma",
+    "meaning": "천식"
+  },
+  {
+    "id": "term-0107",
+    "english": "asthmatic wheezing",
+    "meaning": "천식음"
+  },
+  {
+    "id": "term-0108",
+    "english": "astigmatism",
+    "meaning": "난시"
+  },
+  {
+    "id": "term-0109",
+    "english": "ataxia",
+    "meaning": "운동 실조"
+  },
+  {
+    "id": "term-0110",
+    "english": "atelectasis",
+    "meaning": "무기폐(폐에 공기가 없는 상태)"
+  },
+  {
+    "id": "term-0111",
+    "english": "atherosclerosis",
+    "meaning": "죽상(동맥)경화증"
+  },
+  {
+    "id": "term-0112",
+    "english": "atopic allergy",
+    "meaning": "아토피성 알러지"
+  },
+  {
+    "id": "term-0113",
+    "english": "atopic dermatitis",
+    "meaning": "아토피성 피부염"
+  },
+  {
+    "id": "term-0114",
+    "english": "atopy",
+    "meaning": "아토피, 과민성"
+  },
+  {
+    "id": "term-0115",
+    "english": "atrial fibrillation",
+    "meaning": "심방세동"
+  },
+  {
+    "id": "term-0116",
+    "english": "atrophy",
+    "meaning": "위축"
+  },
+  {
+    "id": "term-0117",
+    "english": "attention-deficit hyperactivity disorder",
+    "meaning": "주의력결핍, 과다활동장애"
+  },
+  {
+    "id": "term-0118",
+    "english": "auditory hallucination",
+    "meaning": "환청"
+  },
+  {
+    "id": "term-0119",
+    "english": "auscultation",
+    "meaning": "천진"
+  },
+  {
+    "id": "term-0120",
+    "english": "autistic disorder",
+    "meaning": "자폐장애"
+  },
+  {
+    "id": "term-0121",
+    "english": "autistic thinking",
+    "meaning": "자폐적 사고"
+  },
+  {
+    "id": "term-0122",
+    "english": "autograft",
+    "meaning": "동종이식, 자기이식"
+  },
+  {
+    "id": "term-0123",
+    "english": "aversion technique",
+    "meaning": "혐오자극법"
+  },
+  {
+    "id": "term-0124",
+    "english": "azoospermia",
+    "meaning": "무정자증"
+  },
+  {
+    "id": "term-0125",
+    "english": "babinski reflex",
+    "meaning": "바빈스키 반사"
+  },
+  {
+    "id": "term-0126",
+    "english": "bacteria",
+    "meaning": "세균"
+  },
+  {
+    "id": "term-0127",
+    "english": "bacteriuria",
+    "meaning": "세균뇨"
+  },
+  {
+    "id": "term-0128",
+    "english": "bandage scissors",
+    "meaning": "붕대가위"
+  },
+  {
+    "id": "term-0129",
+    "english": "basal cell carcinoma",
+    "meaning": "기저세포암"
+  },
+  {
+    "id": "term-0130",
+    "english": "basal metabolism",
+    "meaning": "기초대사"
+  },
+  {
+    "id": "term-0131",
+    "english": "bed pan",
+    "meaning": "침상변기"
+  },
+  {
+    "id": "term-0132",
+    "english": "bed rest",
+    "meaning": "침상안정"
+  },
+  {
+    "id": "term-0133",
+    "english": "behavior modification techniques",
+    "meaning": "행동수정기법"
+  },
+  {
+    "id": "term-0134",
+    "english": "behavior therapy",
+    "meaning": "행동치료"
+  },
+  {
+    "id": "term-0135",
+    "english": "benign",
+    "meaning": "양성"
+  },
+  {
+    "id": "term-0136",
+    "english": "bile duct",
+    "meaning": "담관"
+  },
+  {
+    "id": "term-0137",
+    "english": "bipolar disorder",
+    "meaning": "양극성 장애, 조울증"
+  },
+  {
+    "id": "term-0138",
+    "english": "birth canal",
+    "meaning": "산도"
+  },
+  {
+    "id": "term-0139",
+    "english": "blood dyscrasia",
+    "meaning": "혈액 이상, 혈액 질환"
+  },
+  {
+    "id": "term-0140",
+    "english": "blood pressure",
+    "meaning": "혈압"
+  },
+  {
+    "id": "term-0141",
+    "english": "blood transfusion",
+    "meaning": "수혈"
+  },
+  {
+    "id": "term-0142",
+    "english": "blurred vision",
+    "meaning": "흐린 시야"
+  },
+  {
+    "id": "term-0143",
+    "english": "body temperature",
+    "meaning": "체온"
+  },
+  {
+    "id": "term-0144",
+    "english": "bone graft",
+    "meaning": "골이식"
+  },
+  {
+    "id": "term-0145",
+    "english": "bone marrow",
+    "meaning": "골수"
+  },
+  {
+    "id": "term-0146",
+    "english": "bowel movement",
+    "meaning": "장운동"
+  },
+  {
+    "id": "term-0147",
+    "english": "bowel training program",
+    "meaning": "장훈련"
+  },
+  {
+    "id": "term-0148",
+    "english": "bradycardia",
+    "meaning": "서맥"
+  },
+  {
+    "id": "term-0149",
+    "english": "bradypnea",
+    "meaning": "서호흡(느린 호흡)"
+  },
+  {
+    "id": "term-0150",
+    "english": "brain abscess",
+    "meaning": "뇌농양"
+  },
+  {
+    "id": "term-0151",
+    "english": "bronchiectasis",
+    "meaning": "기관지확장증"
+  },
+  {
+    "id": "term-0152",
+    "english": "bronchitis",
+    "meaning": "기관지염"
+  },
+  {
+    "id": "term-0153",
+    "english": "bronchodilator",
+    "meaning": "기관지 확장제"
+  },
+  {
+    "id": "term-0154",
+    "english": "bronchography",
+    "meaning": "기관지 조영술"
+  },
+  {
+    "id": "term-0155",
+    "english": "bronchopneumonia",
+    "meaning": "기관지 폐렴"
+  },
+  {
+    "id": "term-0156",
+    "english": "bronchoscopy",
+    "meaning": "기관지경 검사"
+  },
+  {
+    "id": "term-0157",
+    "english": "bronchosinusitis",
+    "meaning": "기관지 부비강염"
+  },
+  {
+    "id": "term-0158",
+    "english": "bronchovesicular sound",
+    "meaning": "폐포음"
+  },
+  {
+    "id": "term-0159",
+    "english": "bulimia",
+    "meaning": "식욕항진"
+  },
+  {
+    "id": "term-0160",
+    "english": "bulimia nervosa",
+    "meaning": "신경성 폭식증"
+  },
+  {
+    "id": "term-0161",
+    "english": "bulla",
+    "meaning": "수포"
+  },
+  {
+    "id": "term-0162",
+    "english": "burn injuries",
+    "meaning": "화상"
+  },
+  {
+    "id": "term-0163",
+    "english": "cachexia",
+    "meaning": "악액질"
+  },
+  {
+    "id": "term-0164",
+    "english": "cardiac arrest",
+    "meaning": "심박동 정지"
+  },
+  {
+    "id": "term-0165",
+    "english": "cardiac dysrhythmias",
+    "meaning": "심부정맥"
+  },
+  {
+    "id": "term-0166",
+    "english": "cardiac massage",
+    "meaning": "심장 마사지"
+  },
+  {
+    "id": "term-0167",
+    "english": "cardiac output",
+    "meaning": "심박출량"
+  },
+  {
+    "id": "term-0168",
+    "english": "cardiogenic shock",
+    "meaning": "심인성 쇼크"
+  },
+  {
+    "id": "term-0169",
+    "english": "cardioversion",
+    "meaning": "심율동전환"
+  },
+  {
+    "id": "term-0170",
+    "english": "caries",
+    "meaning": "충치"
+  },
+  {
+    "id": "term-0171",
+    "english": "cartilage",
+    "meaning": "연골"
+  },
+  {
+    "id": "term-0172",
+    "english": "cast bandage",
+    "meaning": "석고붕대"
+  },
+  {
+    "id": "term-0173",
+    "english": "castration fear",
+    "meaning": "거세공포"
+  },
+  {
+    "id": "term-0174",
+    "english": "cataract",
+    "meaning": "백내장"
+  },
+  {
+    "id": "term-0175",
+    "english": "catheterization",
+    "meaning": "인공도뇨, 도뇨삽입"
+  },
+  {
+    "id": "term-0176",
+    "english": "cellulitis",
+    "meaning": "봉와직염"
+  },
+  {
+    "id": "term-0177",
+    "english": "cerebellum",
+    "meaning": "소뇌"
+  },
+  {
+    "id": "term-0178",
+    "english": "cerebral angiography",
+    "meaning": "뇌혈관 조영술"
+  },
+  {
+    "id": "term-0179",
+    "english": "cerebral arteriosclerosis",
+    "meaning": "뇌동맥경화증"
+  },
+  {
+    "id": "term-0180",
+    "english": "cerebral palsy",
+    "meaning": "뇌성마비"
+  },
+  {
+    "id": "term-0181",
+    "english": "cerebrum",
+    "meaning": "대뇌"
+  },
+  {
+    "id": "term-0182",
+    "english": "cervical dilatation",
+    "meaning": "경관개대(자궁목의 개대)"
+  },
+  {
+    "id": "term-0183",
+    "english": "cervical effacement",
+    "meaning": "경관소실(자궁목의 소실)"
+  },
+  {
+    "id": "term-0184",
+    "english": "cervical incompetent",
+    "meaning": "자궁경부무력증"
+  },
+  {
+    "id": "term-0185",
+    "english": "cervicitis",
+    "meaning": "자궁경부염"
+  },
+  {
+    "id": "term-0186",
+    "english": "cervix",
+    "meaning": "자궁경부"
+  },
+  {
+    "id": "term-0187",
+    "english": "chancroid",
+    "meaning": "연성하감"
+  },
+  {
+    "id": "term-0188",
+    "english": "change of shift report",
+    "meaning": "근무교대 보고"
+  },
+  {
+    "id": "term-0189",
+    "english": "chemoreceptor",
+    "meaning": "화학수용기"
+  },
+  {
+    "id": "term-0190",
+    "english": "chemotherapy",
+    "meaning": "항암요법"
+  },
+  {
+    "id": "term-0191",
+    "english": "chicken pox",
+    "meaning": "수두"
+  },
+  {
+    "id": "term-0192",
+    "english": "chilling",
+    "meaning": "오한"
+  },
+  {
+    "id": "term-0193",
+    "english": "chlamidia trachomatis",
+    "meaning": "클라미디아 감염"
+  },
+  {
+    "id": "term-0194",
+    "english": "cholangiography",
+    "meaning": "담관조영술"
+  },
+  {
+    "id": "term-0195",
+    "english": "cholecystectomy",
+    "meaning": "담낭절제술"
+  },
+  {
+    "id": "term-0196",
+    "english": "cholecystitis",
+    "meaning": "담낭염"
+  },
+  {
+    "id": "term-0197",
+    "english": "cholecystography",
+    "meaning": "담낭조영술"
+  },
+  {
+    "id": "term-0198",
+    "english": "cholelithiasis",
+    "meaning": "담석증"
+  },
+  {
+    "id": "term-0199",
+    "english": "chondrosarcoma",
+    "meaning": "연골육종"
+  },
+  {
+    "id": "term-0200",
+    "english": "chorea",
+    "meaning": "무도증, 무도병"
+  },
+  {
+    "id": "term-0201",
+    "english": "chorion",
+    "meaning": "융모막"
+  },
+  {
+    "id": "term-0202",
+    "english": "chromosome",
+    "meaning": "염색체"
+  },
+  {
+    "id": "term-0203",
+    "english": "chronic illness",
+    "meaning": "만성 질병"
+  },
+  {
+    "id": "term-0204",
+    "english": "chronic pain",
+    "meaning": "만성 통증"
+  },
+  {
+    "id": "term-0205",
+    "english": "circulatory failure",
+    "meaning": "순환부전"
+  },
+  {
+    "id": "term-0206",
+    "english": "cirrhosis",
+    "meaning": "경변증"
+  },
+  {
+    "id": "term-0207",
+    "english": "claudication",
+    "meaning": "파행"
+  },
+  {
+    "id": "term-0208",
+    "english": "claustrophobia",
+    "meaning": "밀폐(폐쇄)공포증"
+  },
+  {
+    "id": "term-0209",
+    "english": "clavicle fracture",
+    "meaning": "쇄골골절"
+  },
+  {
+    "id": "term-0210",
+    "english": "cleavage",
+    "meaning": "난할"
+  },
+  {
+    "id": "term-0211",
+    "english": "client record",
+    "meaning": "대상자 기록"
+  },
+  {
+    "id": "term-0212",
+    "english": "climacteric",
+    "meaning": "갱년기"
+  },
+  {
+    "id": "term-0213",
+    "english": "clubbing",
+    "meaning": "곤봉지"
+  },
+  {
+    "id": "term-0214",
+    "english": "coagulation",
+    "meaning": "응고"
+  },
+  {
+    "id": "term-0215",
+    "english": "cognitive therapy",
+    "meaning": "인지치료"
+  },
+  {
+    "id": "term-0216",
+    "english": "coitus",
+    "meaning": "성교"
+  },
+  {
+    "id": "term-0217",
+    "english": "colitis",
+    "meaning": "결장염, 대장염"
+  },
+  {
+    "id": "term-0218",
+    "english": "colon",
+    "meaning": "결장"
+  },
+  {
+    "id": "term-0219",
+    "english": "colostomy",
+    "meaning": "결장루"
+  },
+  {
+    "id": "term-0220",
+    "english": "colostrum",
+    "meaning": "초유"
+  },
+  {
+    "id": "term-0221",
+    "english": "coma",
+    "meaning": "혼수"
+  },
+  {
+    "id": "term-0222",
+    "english": "communication disorder",
+    "meaning": "의사소통장애"
+  },
+  {
+    "id": "term-0223",
+    "english": "compulsion",
+    "meaning": "강박행동"
+  },
+  {
+    "id": "term-0224",
+    "english": "conception",
+    "meaning": "수정"
+  },
+  {
+    "id": "term-0225",
+    "english": "conduction system",
+    "meaning": "전도계"
+  },
+  {
+    "id": "term-0226",
+    "english": "confusion",
+    "meaning": "착란"
+  },
+  {
+    "id": "term-0227",
+    "english": "conjunctivitis",
+    "meaning": "결막염"
+  },
+  {
+    "id": "term-0228",
+    "english": "consolidation",
+    "meaning": "경화"
+  },
+  {
+    "id": "term-0229",
+    "english": "contipation",
+    "meaning": "변비"
+  },
+  {
+    "id": "term-0230",
+    "english": "contact dermatitis",
+    "meaning": "접촉성 피부염"
+  },
+  {
+    "id": "term-0231",
+    "english": "continuing education",
+    "meaning": "계속교육"
+  },
+  {
+    "id": "term-0232",
+    "english": "contraception",
+    "meaning": "피임"
+  },
+  {
+    "id": "term-0233",
+    "english": "contracture",
+    "meaning": "경축"
+  },
+  {
+    "id": "term-0234",
+    "english": "contusion",
+    "meaning": "좌상, 타박상"
+  },
+  {
+    "id": "term-0235",
+    "english": "convulsion, cramp",
+    "meaning": "경련"
+  },
+  {
+    "id": "term-0236",
+    "english": "core temperature",
+    "meaning": "심부체온"
+  },
+  {
+    "id": "term-0237",
+    "english": "coryza",
+    "meaning": "콧물, 코감기"
+  },
+  {
+    "id": "term-0238",
+    "english": "countertraction",
+    "meaning": "상대견인"
+  },
+  {
+    "id": "term-0239",
+    "english": "couvelaire uterus",
+    "meaning": "쿠벨레아 자궁, 자궁태반 일혈증"
+  },
+  {
+    "id": "term-0240",
+    "english": "cracked nipple",
+    "meaning": "유두균열"
+  },
+  {
+    "id": "term-0241",
+    "english": "cranial nerve",
+    "meaning": "뇌신경"
+  },
+  {
+    "id": "term-0242",
+    "english": "cretinism",
+    "meaning": "크레틴증"
+  },
+  {
+    "id": "term-0243",
+    "english": "crowning",
+    "meaning": "발로"
+  },
+  {
+    "id": "term-0244",
+    "english": "curettage",
+    "meaning": "소파술"
+  },
+  {
+    "id": "term-0245",
+    "english": "curve of carus",
+    "meaning": "캐러스 곡선(골반의 곡선)"
+  },
+  {
+    "id": "term-0246",
+    "english": "Cushing's syndrome",
+    "meaning": "쿠싱 증후군"
+  },
+  {
+    "id": "term-0247",
+    "english": "cutaneous pain",
+    "meaning": "피부 통증"
+  },
+  {
+    "id": "term-0248",
+    "english": "cyanosis",
+    "meaning": "청색증"
+  },
+  {
+    "id": "term-0249",
+    "english": "cyst",
+    "meaning": "낭종"
+  },
+  {
+    "id": "term-0250",
+    "english": "cystectomy",
+    "meaning": "방광절제술"
+  },
+  {
+    "id": "term-0251",
+    "english": "cystic calculus",
+    "meaning": "방광결석"
+  },
+  {
+    "id": "term-0252",
+    "english": "cystitis",
+    "meaning": "방광염"
+  },
+  {
+    "id": "term-0253",
+    "english": "cystocele",
+    "meaning": "방광류"
+  },
+  {
+    "id": "term-0254",
+    "english": "cystogram",
+    "meaning": "방광 조영술"
+  },
+  {
+    "id": "term-0255",
+    "english": "cystoscopy",
+    "meaning": "방광경 검사"
+  },
+  {
+    "id": "term-0256",
+    "english": "cytopenia",
+    "meaning": "혈구 감소증"
+  },
+  {
+    "id": "term-0257",
+    "english": "day dreaming",
+    "meaning": "백일몽"
+  },
+  {
+    "id": "term-0258",
+    "english": "deafness",
+    "meaning": "난청"
+  },
+  {
+    "id": "term-0259",
+    "english": "debridemint",
+    "meaning": "변연절제술"
+  },
+  {
+    "id": "term-0260",
+    "english": "decidua",
+    "meaning": "탈락막"
+  },
+  {
+    "id": "term-0261",
+    "english": "decubitus ulcer",
+    "meaning": "욕창"
+  },
+  {
+    "id": "term-0262",
+    "english": "deep tendon reflex(DTR)",
+    "meaning": "심부건 반사"
+  },
+  {
+    "id": "term-0263",
+    "english": "defense mechanisms",
+    "meaning": "방어기전"
+  },
+  {
+    "id": "term-0264",
+    "english": "deformity",
+    "meaning": "기형"
+  },
+  {
+    "id": "term-0265",
+    "english": "dehydration",
+    "meaning": "탈수"
+  },
+  {
+    "id": "term-0266",
+    "english": "delayed union",
+    "meaning": "지연유합"
+  },
+  {
+    "id": "term-0267",
+    "english": "delirium",
+    "meaning": "섬망"
+  },
+  {
+    "id": "term-0268",
+    "english": "delivery",
+    "meaning": "출산, 분만"
+  },
+  {
+    "id": "term-0269",
+    "english": "delusion",
+    "meaning": "망상"
+  },
+  {
+    "id": "term-0270",
+    "english": "delusional disorder",
+    "meaning": "망상장애"
+  },
+  {
+    "id": "term-0271",
+    "english": "dementia",
+    "meaning": "치매"
+  },
+  {
+    "id": "term-0272",
+    "english": "denial",
+    "meaning": "부정"
+  },
+  {
+    "id": "term-0273",
+    "english": "dental caries",
+    "meaning": "치아우식증"
+  },
+  {
+    "id": "term-0274",
+    "english": "dependent nursing actions",
+    "meaning": "의존적 간호활동"
+  },
+  {
+    "id": "term-0275",
+    "english": "depolarization",
+    "meaning": "탈분극 상태"
+  },
+  {
+    "id": "term-0276",
+    "english": "depressed nipple",
+    "meaning": "함몰유두"
+  },
+  {
+    "id": "term-0277",
+    "english": "depression",
+    "meaning": "우울"
+  },
+  {
+    "id": "term-0278",
+    "english": "depressive personality disorder",
+    "meaning": "우울성 인격장애"
+  },
+  {
+    "id": "term-0279",
+    "english": "dermabrasion",
+    "meaning": "피부박리술"
+  },
+  {
+    "id": "term-0280",
+    "english": "dermatitis",
+    "meaning": "피부염"
+  },
+  {
+    "id": "term-0281",
+    "english": "dermatophyte",
+    "meaning": "피부사상균"
+  },
+  {
+    "id": "term-0282",
+    "english": "dermis",
+    "meaning": "진피"
+  },
+  {
+    "id": "term-0283",
+    "english": "descent",
+    "meaning": "하강"
+  },
+  {
+    "id": "term-0284",
+    "english": "deviation",
+    "meaning": "편위, 사위"
+  },
+  {
+    "id": "term-0285",
+    "english": "diabetes insipidus",
+    "meaning": "요붕증"
+  },
+  {
+    "id": "term-0286",
+    "english": "diabetes mellitus",
+    "meaning": "당뇨병"
+  },
+  {
+    "id": "term-0287",
+    "english": "diabetic ketoacidosis",
+    "meaning": "당뇨병성 케톤산증"
+  },
+  {
+    "id": "term-0288",
+    "english": "diagnosing",
+    "meaning": "진단"
+  },
+  {
+    "id": "term-0289",
+    "english": "dialysis",
+    "meaning": "투석"
+  },
+  {
+    "id": "term-0290",
+    "english": "diaper rash",
+    "meaning": "기저귀 발진"
+  },
+  {
+    "id": "term-0291",
+    "english": "diaphoresis",
+    "meaning": "발한작용"
+  },
+  {
+    "id": "term-0292",
+    "english": "diarrhea",
+    "meaning": "설사"
+  },
+  {
+    "id": "term-0293",
+    "english": "diastolic pressure",
+    "meaning": "이완기혈압"
+  },
+  {
+    "id": "term-0294",
+    "english": "diencephalon",
+    "meaning": "간뇌"
+  },
+  {
+    "id": "term-0295",
+    "english": "diphtheria",
+    "meaning": "디프테리아"
+  },
+  {
+    "id": "term-0296",
+    "english": "diplopia",
+    "meaning": "복시"
+  },
+  {
+    "id": "term-0297",
+    "english": "discharge",
+    "meaning": "퇴원"
+  },
+  {
+    "id": "term-0298",
+    "english": "discharge planning",
+    "meaning": "퇴원계획"
+  },
+  {
+    "id": "term-0299",
+    "english": "disinfection",
+    "meaning": "소독"
+  },
+  {
+    "id": "term-0300",
+    "english": "diskography",
+    "meaning": "추간판 조영술"
+  },
+  {
+    "id": "term-0301",
+    "english": "dislocation",
+    "meaning": "탈구"
+  },
+  {
+    "id": "term-0302",
+    "english": "disposable pad",
+    "meaning": "일회용 패드"
+  },
+  {
+    "id": "term-0303",
+    "english": "dissociation",
+    "meaning": "해리"
+  },
+  {
+    "id": "term-0304",
+    "english": "dissociative amnesia",
+    "meaning": "해리성 기억상실"
+  },
+  {
+    "id": "term-0305",
+    "english": "dissociative disorder",
+    "meaning": "해리성 장애"
+  },
+  {
+    "id": "term-0306",
+    "english": "distractability",
+    "meaning": "주의산만"
+  },
+  {
+    "id": "term-0307",
+    "english": "diuretic",
+    "meaning": "이뇨제"
+  },
+  {
+    "id": "term-0308",
+    "english": "diverticulitis",
+    "meaning": "게실염"
+  },
+  {
+    "id": "term-0309",
+    "english": "dizziness",
+    "meaning": "현기증"
+  },
+  {
+    "id": "term-0310",
+    "english": "dressing cart",
+    "meaning": "드레싱 카트"
+  },
+  {
+    "id": "term-0311",
+    "english": "dowsiness",
+    "meaning": "조는 상태, 기면 상태"
+  },
+  {
+    "id": "term-0312",
+    "english": "drug abuse",
+    "meaning": "약물남용"
+  },
+  {
+    "id": "term-0313",
+    "english": "drug misuse",
+    "meaning": "약물오용"
+  },
+  {
+    "id": "term-0314",
+    "english": "ductus arteriosus",
+    "meaning": "동맥관"
+  },
+  {
+    "id": "term-0315",
+    "english": "ductus venosus",
+    "meaning": "정맥관"
+  },
+  {
+    "id": "term-0316",
+    "english": "dumping syndrome",
+    "meaning": "덤핑 증후군"
+  },
+  {
+    "id": "term-0317",
+    "english": "duodenal ulcer",
+    "meaning": "십이지장 궤양"
+  },
+  {
+    "id": "term-0318",
+    "english": "dura mater",
+    "meaning": "경막"
+  },
+  {
+    "id": "term-0319",
+    "english": "dwarfism",
+    "meaning": "왜소 발육증, 소인증"
+  },
+  {
+    "id": "term-0320",
+    "english": "dyscrasia",
+    "meaning": "악액질"
+  },
+  {
+    "id": "term-0321",
+    "english": "dysentery",
+    "meaning": "이질"
+  },
+  {
+    "id": "term-0322",
+    "english": "dyskinesia",
+    "meaning": "운동장애"
+  },
+  {
+    "id": "term-0323",
+    "english": "dysmenorrhea",
+    "meaning": "월경곤란증"
+  },
+  {
+    "id": "term-0324",
+    "english": "dyspareunia",
+    "meaning": "성교곤란증"
+  },
+  {
+    "id": "term-0325",
+    "english": "dyspepsia",
+    "meaning": "소화불량"
+  },
+  {
+    "id": "term-0326",
+    "english": "dysphagia",
+    "meaning": "연하곤란, 연하장애"
+  },
+  {
+    "id": "term-0327",
+    "english": "dysplasia",
+    "meaning": "이형성"
+  },
+  {
+    "id": "term-0328",
+    "english": "dyspnea",
+    "meaning": "호흡곤란"
+  },
+  {
+    "id": "term-0329",
+    "english": "dystocia",
+    "meaning": "난산"
+  },
+  {
+    "id": "term-0330",
+    "english": "dysuria",
+    "meaning": "배뇨곤란"
+  },
+  {
+    "id": "term-0331",
+    "english": "ecchymosis",
+    "meaning": "반상출혈"
+  },
+  {
+    "id": "term-0332",
+    "english": "eclampsia",
+    "meaning": "자간증"
+  },
+  {
+    "id": "term-0333",
+    "english": "ectopic pregnancy",
+    "meaning": "자궁외 임신"
+  },
+  {
+    "id": "term-0334",
+    "english": "eczema",
+    "meaning": "습진"
+  },
+  {
+    "id": "term-0335",
+    "english": "edema",
+    "meaning": "부종"
+  },
+  {
+    "id": "term-0336",
+    "english": "effleurage",
+    "meaning": "경찰법(복부를 가볍게 치는 마사지)"
+  },
+  {
+    "id": "term-0337",
+    "english": "effusion",
+    "meaning": "삼출, 삼출액"
+  },
+  {
+    "id": "term-0338",
+    "english": "ego",
+    "meaning": "자아"
+  },
+  {
+    "id": "term-0339",
+    "english": "elbow restraint",
+    "meaning": "팔꿈치 억제대"
+  },
+  {
+    "id": "term-0340",
+    "english": "electrocauterization",
+    "meaning": "전기소작법"
+  },
+  {
+    "id": "term-0341",
+    "english": "electromyogram",
+    "meaning": "근전도"
+  },
+  {
+    "id": "term-0342",
+    "english": "electronic fetal monitoring",
+    "meaning": "전자태아감시기"
+  },
+  {
+    "id": "term-0343",
+    "english": "elimination disorder",
+    "meaning": "배설장애"
+  },
+  {
+    "id": "term-0344",
+    "english": "embolic",
+    "meaning": "색전성"
+  },
+  {
+    "id": "term-0345",
+    "english": "embolus",
+    "meaning": "색전"
+  },
+  {
+    "id": "term-0346",
+    "english": "energency treatment",
+    "meaning": "응급처치"
+  },
+  {
+    "id": "term-0347",
+    "english": "emollient",
+    "meaning": "윤활제"
+  },
+  {
+    "id": "term-0348",
+    "english": "emphysema",
+    "meaning": "폐기종"
+  },
+  {
+    "id": "term-0349",
+    "english": "empty nest syndrome",
+    "meaning": "빈둥지 증후군"
+  },
+  {
+    "id": "term-0350",
+    "english": "encephalitis",
+    "meaning": "뇌염"
+  },
+  {
+    "id": "term-0351",
+    "english": "encephalomalacia",
+    "meaning": "뇌연화증"
+  },
+  {
+    "id": "term-0352",
+    "english": "endocarditis",
+    "meaning": "심내막염"
+  },
+  {
+    "id": "term-0353",
+    "english": "endometritis",
+    "meaning": "자궁내막염"
+  },
+  {
+    "id": "term-0354",
+    "english": "endometrium",
+    "meaning": "자궁내막"
+  },
+  {
+    "id": "term-0355",
+    "english": "endoscopy",
+    "meaning": "내시경 검사"
+  },
+  {
+    "id": "term-0356",
+    "english": "enema",
+    "meaning": "관장"
+  },
+  {
+    "id": "term-0357",
+    "english": "enteral nutrition",
+    "meaning": "경장 영양"
+  },
+  {
+    "id": "term-0358",
+    "english": "enteritis",
+    "meaning": "장염"
+  },
+  {
+    "id": "term-0359",
+    "english": "enuresis",
+    "meaning": "야뇨증"
+  },
+  {
+    "id": "term-0360",
+    "english": "ependyma",
+    "meaning": "뇌실막"
+  },
+  {
+    "id": "term-0361",
+    "english": "epidemic parotitis",
+    "meaning": "유행성 이하선염"
+  },
+  {
+    "id": "term-0362",
+    "english": "epidydimis",
+    "meaning": "부고환"
+  },
+  {
+    "id": "term-0363",
+    "english": "epilepsy",
+    "meaning": "간질"
+  },
+  {
+    "id": "term-0364",
+    "english": "episiotomy",
+    "meaning": "회음절개술"
+  },
+  {
+    "id": "term-0365",
+    "english": "epistaxis",
+    "meaning": "비출혈, 코피"
+  },
+  {
+    "id": "term-0366",
+    "english": "erosion",
+    "meaning": "미란(만성 경관염 증상)"
+  },
+  {
+    "id": "term-0367",
+    "english": "eruption",
+    "meaning": "발진, 맹출"
+  },
+  {
+    "id": "term-0368",
+    "english": "erythema",
+    "meaning": "홍반"
+  },
+  {
+    "id": "term-0369",
+    "english": "erythrocytosis",
+    "meaning": "적혈구 증가증"
+  },
+  {
+    "id": "term-0370",
+    "english": "erythropenia",
+    "meaning": "적혈구 감소증"
+  },
+  {
+    "id": "term-0371",
+    "english": "eschar",
+    "meaning": "가피"
+  },
+  {
+    "id": "term-0372",
+    "english": "esophageal atresia",
+    "meaning": "식도 폐쇄"
+  },
+  {
+    "id": "term-0373",
+    "english": "esophageal stenosis",
+    "meaning": "식도협착"
+  },
+  {
+    "id": "term-0374",
+    "english": "esophagectomy",
+    "meaning": "식도 절제술"
+  },
+  {
+    "id": "term-0375",
+    "english": "esophagitis",
+    "meaning": "식도염"
+  },
+  {
+    "id": "term-0376",
+    "english": "esophagography",
+    "meaning": "식도조영술"
+  },
+  {
+    "id": "term-0377",
+    "english": "estrogen",
+    "meaning": "에스트로겐"
+  },
+  {
+    "id": "term-0378",
+    "english": "eupnea",
+    "meaning": "정상호흡"
+  },
+  {
+    "id": "term-0379",
+    "english": "exanthema",
+    "meaning": "발진, 맹출"
+  },
+  {
+    "id": "term-0380",
+    "english": "exhibitionism",
+    "meaning": "노출증"
+  },
+  {
+    "id": "term-0381",
+    "english": "exostosis",
+    "meaning": "외골증"
+  },
+  {
+    "id": "term-0382",
+    "english": "expiration",
+    "meaning": "호기"
+  },
+  {
+    "id": "term-0383",
+    "english": "expulsion",
+    "meaning": "만출"
+  },
+  {
+    "id": "term-0384",
+    "english": "exudate",
+    "meaning": "삼출물"
+  },
+  {
+    "id": "term-0385",
+    "english": "fallopian tube",
+    "meaning": "나팔관"
+  },
+  {
+    "id": "term-0386",
+    "english": "falls",
+    "meaning": "낙상"
+  },
+  {
+    "id": "term-0387",
+    "english": "family therapy",
+    "meaning": "가족치료"
+  },
+  {
+    "id": "term-0388",
+    "english": "fascitis",
+    "meaning": "근막염"
+  },
+  {
+    "id": "term-0389",
+    "english": "fat embloism",
+    "meaning": "지방 색전증"
+  },
+  {
+    "id": "term-0390",
+    "english": "fatty acid",
+    "meaning": "지방산"
+  },
+  {
+    "id": "term-0391",
+    "english": "fatty liver",
+    "meaning": "지방간"
+  },
+  {
+    "id": "term-0392",
+    "english": "febrile convulsion",
+    "meaning": "열성경련"
+  },
+  {
+    "id": "term-0393",
+    "english": "fecal incontinence",
+    "meaning": "변실금"
+  },
+  {
+    "id": "term-0394",
+    "english": "feces",
+    "meaning": "분변"
+  },
+  {
+    "id": "term-0395",
+    "english": "feces impaction",
+    "meaning": "분변매복"
+  },
+  {
+    "id": "term-0396",
+    "english": "feeding disorders",
+    "meaning": "섭식장애"
+  },
+  {
+    "id": "term-0397",
+    "english": "fertilization",
+    "meaning": "수태, 수정"
+  },
+  {
+    "id": "term-0398",
+    "english": "fetal alcohol syndrome",
+    "meaning": "태아알코올증후군"
+  },
+  {
+    "id": "term-0399",
+    "english": "fetal death",
+    "meaning": "태아사망(임신 20주 이후 태아사망)"
+  },
+  {
+    "id": "term-0400",
+    "english": "fetal erythroblastosis",
+    "meaning": "태아적아구증"
+  },
+  {
+    "id": "term-0401",
+    "english": "fetal lie",
+    "meaning": "태위(모체의 장축과 태아의 장축과의 관계)"
+  },
+  {
+    "id": "term-0402",
+    "english": "fetoscope",
+    "meaning": "태아경"
+  },
+  {
+    "id": "term-0403",
+    "english": "fetus",
+    "meaning": "태아"
+  },
+  {
+    "id": "term-0404",
+    "english": "fimbriae of uterine",
+    "meaning": "난관채"
+  },
+  {
+    "id": "term-0405",
+    "english": "flatulence",
+    "meaning": "고창"
+  },
+  {
+    "id": "term-0406",
+    "english": "flexion",
+    "meaning": "굴곡, 굽힘"
+  },
+  {
+    "id": "term-0407",
+    "english": "flushing",
+    "meaning": "홍조"
+  },
+  {
+    "id": "term-0408",
+    "english": "foley catheter",
+    "meaning": "유치도뇨관"
+  },
+  {
+    "id": "term-0409",
+    "english": "folliculitis",
+    "meaning": "모낭염"
+  },
+  {
+    "id": "term-0410",
+    "english": "follow up",
+    "meaning": "추후관리"
+  },
+  {
+    "id": "term-0411",
+    "english": "footdrop",
+    "meaning": "수족"
+  },
+  {
+    "id": "term-0412",
+    "english": "Foramen ovale",
+    "meaning": "난원공"
+  },
+  {
+    "id": "term-0413",
+    "english": "forceps",
+    "meaning": "겸자, 섭자"
+  },
+  {
+    "id": "term-0414",
+    "english": "forceps delivery",
+    "meaning": "겸자분만"
+  },
+  {
+    "id": "term-0415",
+    "english": "fracture",
+    "meaning": "골절"
+  },
+  {
+    "id": "term-0416",
+    "english": "frequency of urine",
+    "meaning": "빈뇨"
+  },
+  {
+    "id": "term-0417",
+    "english": "friction",
+    "meaning": "마찰"
+  },
+  {
+    "id": "term-0418",
+    "english": "frontal lobe",
+    "meaning": "전두엽"
+  },
+  {
+    "id": "term-0419",
+    "english": "full-term infant",
+    "meaning": "만삭아(임신38~42주에 태어난 아기)"
+  },
+  {
+    "id": "term-0420",
+    "english": "fungi",
+    "meaning": "곰팡이"
+  },
+  {
+    "id": "term-0421",
+    "english": "funic souffle",
+    "meaning": "제대잡음"
+  },
+  {
+    "id": "term-0422",
+    "english": "furuncle",
+    "meaning": "절종, 부스럼, 종기"
+  },
+  {
+    "id": "term-0423",
+    "english": "galactorrhea",
+    "meaning": "유즙분비과다"
+  },
+  {
+    "id": "term-0424",
+    "english": "ganglion",
+    "meaning": "신경절"
+  },
+  {
+    "id": "term-0425",
+    "english": "gangrene",
+    "meaning": "괴저, 탈저"
+  },
+  {
+    "id": "term-0426",
+    "english": "gastrectomy",
+    "meaning": "위절제술"
+  },
+  {
+    "id": "term-0427",
+    "english": "gastric ulcer",
+    "meaning": "위궤양"
+  },
+  {
+    "id": "term-0428",
+    "english": "gastritis",
+    "meaning": "위염"
+  },
+  {
+    "id": "term-0429",
+    "english": "gastroduodenitis",
+    "meaning": "위십이지장염"
+  },
+  {
+    "id": "term-0430",
+    "english": "gastroenteritis",
+    "meaning": "위장염"
+  },
+  {
+    "id": "term-0431",
+    "english": "gastroptosis",
+    "meaning": "위하수"
+  },
+  {
+    "id": "term-0432",
+    "english": "gastrostomy",
+    "meaning": "위루술"
+  },
+  {
+    "id": "term-0433",
+    "english": "gavage feeding",
+    "meaning": "위관 영양"
+  },
+  {
+    "id": "term-0434",
+    "english": "genitalia",
+    "meaning": "생식기"
+  },
+  {
+    "id": "term-0435",
+    "english": "gestation, gravid",
+    "meaning": "임신"
+  },
+  {
+    "id": "term-0436",
+    "english": "gestational age",
+    "meaning": "재태연령"
+  },
+  {
+    "id": "term-0437",
+    "english": "gestational period",
+    "meaning": "재태기간, 임신기간"
+  },
+  {
+    "id": "term-0438",
+    "english": "gestational trophoblastic disease",
+    "meaning": "임신성 융모질환"
+  },
+  {
+    "id": "term-0439",
+    "english": "giantism",
+    "meaning": "거인증"
+  },
+  {
+    "id": "term-0440",
+    "english": "gingiva",
+    "meaning": "잇몸"
+  },
+  {
+    "id": "term-0441",
+    "english": "gingivitis",
+    "meaning": "치은염(잇몸의 염증)"
+  },
+  {
+    "id": "term-0442",
+    "english": "glaucoma",
+    "meaning": "녹내장"
+  },
+  {
+    "id": "term-0443",
+    "english": "glomerulonephritis",
+    "meaning": "사구체신염"
+  },
+  {
+    "id": "term-0444",
+    "english": "glossitis",
+    "meaning": "설염(혀의 염증)"
+  },
+  {
+    "id": "term-0445",
+    "english": "glycosuria",
+    "meaning": "당뇨"
+  },
+  {
+    "id": "term-0446",
+    "english": "goiter",
+    "meaning": "갑상선종"
+  },
+  {
+    "id": "term-0447",
+    "english": "gonorrhea",
+    "meaning": "임질"
+  },
+  {
+    "id": "term-0448",
+    "english": "Goodell's sign",
+    "meaning": "굳델징후"
+  },
+  {
+    "id": "term-0449",
+    "english": "gout",
+    "meaning": "통풍"
+  },
+  {
+    "id": "term-0450",
+    "english": "Graafian follicle",
+    "meaning": "그라프 난포, 성숙난포"
+  },
+  {
+    "id": "term-0451",
+    "english": "graft",
+    "meaning": "이식"
+  },
+  {
+    "id": "term-0452",
+    "english": "gram-negative bacteria",
+    "meaning": "그람음성균"
+  },
+  {
+    "id": "term-0453",
+    "english": "gram-positive bacteria",
+    "meaning": "그람양성균"
+  },
+  {
+    "id": "term-0454",
+    "english": "grandiose delusions",
+    "meaning": "과대망상"
+  },
+  {
+    "id": "term-0455",
+    "english": "granulocytopenia",
+    "meaning": "과립구 감소증"
+  },
+  {
+    "id": "term-0456",
+    "english": "granulocytosis",
+    "meaning": "과립구 증가증"
+  },
+  {
+    "id": "term-0457",
+    "english": "gravidity",
+    "meaning": "임신력"
+  },
+  {
+    "id": "term-0458",
+    "english": "gray matter",
+    "meaning": "회백질"
+  },
+  {
+    "id": "term-0459",
+    "english": "group psychotherapy",
+    "meaning": "집단 정신치료"
+  },
+  {
+    "id": "term-0460",
+    "english": "guaiac test",
+    "meaning": "잠혈검사"
+  },
+  {
+    "id": "term-0461",
+    "english": "hallucination",
+    "meaning": "환각"
+  },
+  {
+    "id": "term-0462",
+    "english": "hammer toe",
+    "meaning": "추상발가락"
+  },
+  {
+    "id": "term-0463",
+    "english": "headache",
+    "meaning": "두통"
+  },
+  {
+    "id": "term-0464",
+    "english": "health promotion",
+    "meaning": "건강증진"
+  },
+  {
+    "id": "term-0465",
+    "english": "heart rate",
+    "meaning": "심박동수"
+  },
+  {
+    "id": "term-0466",
+    "english": "heart transplantation",
+    "meaning": "심장이식술"
+  },
+  {
+    "id": "term-0467",
+    "english": "heartburn",
+    "meaning": "가슴앓이"
+  },
+  {
+    "id": "term-0468",
+    "english": "hemangioma",
+    "meaning": "혈관종"
+  },
+  {
+    "id": "term-0469",
+    "english": "hemarthrosis",
+    "meaning": "관절혈증, 출혈성관절증"
+  },
+  {
+    "id": "term-0470",
+    "english": "hematoma",
+    "meaning": "혈종"
+  },
+  {
+    "id": "term-0471",
+    "english": "hematuria",
+    "meaning": "혈뇨"
+  },
+  {
+    "id": "term-0472",
+    "english": "hemiparesis",
+    "meaning": "편측부전마비"
+  },
+  {
+    "id": "term-0473",
+    "english": "hemiplegia",
+    "meaning": "편마비, 반신불수"
+  },
+  {
+    "id": "term-0474",
+    "english": "hemolysis",
+    "meaning": "용혈"
+  },
+  {
+    "id": "term-0475",
+    "english": "hemolytic anemia",
+    "meaning": "용혈성 빈혈"
+  },
+  {
+    "id": "term-0476",
+    "english": "hemolytic jaundice",
+    "meaning": "용혈성 황달"
+  },
+  {
+    "id": "term-0477",
+    "english": "hemophilia",
+    "meaning": "혈우병"
+  },
+  {
+    "id": "term-0478",
+    "english": "hemoptysis",
+    "meaning": "객혈, 혈담"
+  },
+  {
+    "id": "term-0479",
+    "english": "hemorrhage",
+    "meaning": "출혈"
+  },
+  {
+    "id": "term-0480",
+    "english": "hemorrhoid",
+    "meaning": "치질"
+  },
+  {
+    "id": "term-0481",
+    "english": "hemostasis",
+    "meaning": "지혈"
+  },
+  {
+    "id": "term-0482",
+    "english": "hemostat",
+    "meaning": "지혈겸자"
+  },
+  {
+    "id": "term-0483",
+    "english": "hepatic abscess",
+    "meaning": "간농양"
+  },
+  {
+    "id": "term-0484",
+    "english": "hepatic coma",
+    "meaning": "간성 혼수"
+  },
+  {
+    "id": "term-0485",
+    "english": "hepatic failure",
+    "meaning": "간부전"
+  },
+  {
+    "id": "term-0486",
+    "english": "hepatitis",
+    "meaning": "간염"
+  },
+  {
+    "id": "term-0487",
+    "english": "hepatoma",
+    "meaning": "간종양"
+  },
+  {
+    "id": "term-0488",
+    "english": "hepatomegaly",
+    "meaning": "간비대"
+  },
+  {
+    "id": "term-0489",
+    "english": "hernia",
+    "meaning": "탈장"
+  },
+  {
+    "id": "term-0490",
+    "english": "herpes simplex",
+    "meaning": "단순포진"
+  },
+  {
+    "id": "term-0491",
+    "english": "herpes zoster",
+    "meaning": "대상포진"
+  },
+  {
+    "id": "term-0492",
+    "english": "hiatal hernia",
+    "meaning": "식도열공 탈장"
+  },
+  {
+    "id": "term-0493",
+    "english": "high risk",
+    "meaning": "고위험"
+  },
+  {
+    "id": "term-0494",
+    "english": "histrionic personality disorder",
+    "meaning": "히스테리성 인격장애"
+  },
+  {
+    "id": "term-0495",
+    "english": "hoarseness",
+    "meaning": "쉰 목소리"
+  },
+  {
+    "id": "term-0496",
+    "english": "Hodgkin's disease",
+    "meaning": "호지킨병"
+  },
+  {
+    "id": "term-0497",
+    "english": "homosexuality",
+    "meaning": "동성애"
+  },
+  {
+    "id": "term-0498",
+    "english": "hot flush",
+    "meaning": "열감(안면홍조)"
+  },
+  {
+    "id": "term-0499",
+    "english": "hydatidiform mole",
+    "meaning": "포상기태"
+  },
+  {
+    "id": "term-0500",
+    "english": "hydralazine(Apresoline)",
+    "meaning": "항고혈압제"
+  },
+  {
+    "id": "term-0501",
+    "english": "hydramnios",
+    "meaning": "양수과다증"
+  },
+  {
+    "id": "term-0502",
+    "english": "hydrarthrosis",
+    "meaning": "관절수종"
+  },
+  {
+    "id": "term-0503",
+    "english": "hydrocele",
+    "meaning": "음낭수종"
+  },
+  {
+    "id": "term-0504",
+    "english": "hydrocephalus",
+    "meaning": "수두증, 뇌수종"
+  },
+  {
+    "id": "term-0505",
+    "english": "hydrops fetalis",
+    "meaning": "태아수종"
+  },
+  {
+    "id": "term-0506",
+    "english": "hymen",
+    "meaning": "처녀막"
+  },
+  {
+    "id": "term-0507",
+    "english": "hyperaldosteronism",
+    "meaning": "고알도스테론증"
+  },
+  {
+    "id": "term-0508",
+    "english": "hyperbilirubinemia",
+    "meaning": "고빌리루빈혈증"
+  },
+  {
+    "id": "term-0509",
+    "english": "hypercalcemia",
+    "meaning": "고칼슘혈증"
+  },
+  {
+    "id": "term-0510",
+    "english": "Hyperemesis gravidarum",
+    "meaning": "임신오조증"
+  },
+  {
+    "id": "term-0511",
+    "english": "hyperglycemia",
+    "meaning": "고혈당(증)"
+  },
+  {
+    "id": "term-0512",
+    "english": "hyperemia",
+    "meaning": "충혈"
+  },
+  {
+    "id": "term-0513",
+    "english": "hyperpigmentation",
+    "meaning": "착색과다"
+  },
+  {
+    "id": "term-0514",
+    "english": "hyperpyrexia",
+    "meaning": "고열"
+  },
+  {
+    "id": "term-0515",
+    "english": "hypertension",
+    "meaning": "고혈압"
+  },
+  {
+    "id": "term-0516",
+    "english": "hyperthermia",
+    "meaning": "고체온"
+  },
+  {
+    "id": "term-0517",
+    "english": "hyperthyroidism",
+    "meaning": "갑상선 기능항진증"
+  },
+  {
+    "id": "term-0518",
+    "english": "hypertrophic arthritis",
+    "meaning": "비대성 관절염"
+  },
+  {
+    "id": "term-0519",
+    "english": "hypertrophy",
+    "meaning": "비대성 관절염"
+  },
+  {
+    "id": "term-0520",
+    "english": "hyperventilation",
+    "meaning": "과도호흡"
+  },
+  {
+    "id": "term-0521",
+    "english": "hypnosis",
+    "meaning": "최면요법"
+  },
+  {
+    "id": "term-0522",
+    "english": "hypochondriasis",
+    "meaning": "건강염려"
+  },
+  {
+    "id": "term-0523",
+    "english": "hypoglycemia",
+    "meaning": "저혈당(증)"
+  },
+  {
+    "id": "term-0524",
+    "english": "hypokalemia",
+    "meaning": "저칼륨혈증"
+  },
+  {
+    "id": "term-0525",
+    "english": "hypoparathyroidism",
+    "meaning": "부갑상선 기능 저하증"
+  },
+  {
+    "id": "term-0526",
+    "english": "hypophysectomy",
+    "meaning": "뇌하수체 절제술"
+  },
+  {
+    "id": "term-0527",
+    "english": "hypopnea",
+    "meaning": "저호흡, 호흡저하"
+  },
+  {
+    "id": "term-0528",
+    "english": "hypothalamus",
+    "meaning": "시상하부"
+  },
+  {
+    "id": "term-0529",
+    "english": "hypothermia",
+    "meaning": "저체온"
+  },
+  {
+    "id": "term-0530",
+    "english": "hypoxia",
+    "meaning": "저산소증"
+  },
+  {
+    "id": "term-0531",
+    "english": "hysterosalpingography",
+    "meaning": "자궁난관조영술"
+  },
+  {
+    "id": "term-0532",
+    "english": "hysterotomy",
+    "meaning": "자궁절개술"
+  },
+  {
+    "id": "term-0533",
+    "english": "icterus",
+    "meaning": "황달"
+  },
+  {
+    "id": "term-0534",
+    "english": "identification",
+    "meaning": "동일시"
+  },
+  {
+    "id": "term-0535",
+    "english": "ileostomy",
+    "meaning": "회장루"
+  },
+  {
+    "id": "term-0536",
+    "english": "ileus",
+    "meaning": "장폐색증"
+  },
+  {
+    "id": "term-0537",
+    "english": "illness",
+    "meaning": "병"
+  },
+  {
+    "id": "term-0538",
+    "english": "immune response",
+    "meaning": "면역 반응"
+  },
+  {
+    "id": "term-0539",
+    "english": "immunity",
+    "meaning": "면역성"
+  },
+  {
+    "id": "term-0540",
+    "english": "imperforated anus",
+    "meaning": "항문폐쇄"
+  },
+  {
+    "id": "term-0541",
+    "english": "implantation",
+    "meaning": "착상"
+  },
+  {
+    "id": "term-0542",
+    "english": "in-service education",
+    "meaning": "실무교육"
+  },
+  {
+    "id": "term-0543",
+    "english": "incision",
+    "meaning": "절개"
+  },
+  {
+    "id": "term-0544",
+    "english": "incoherence",
+    "meaning": "사고의 지리 멸렬"
+  },
+  {
+    "id": "term-0545",
+    "english": "incontinence",
+    "meaning": "실금"
+  },
+  {
+    "id": "term-0546",
+    "english": "incubation period",
+    "meaning": "잠복기"
+  },
+  {
+    "id": "term-0547",
+    "english": "inerita uterine",
+    "meaning": "자궁무력증"
+  },
+  {
+    "id": "term-0548",
+    "english": "infarction",
+    "meaning": "경색증"
+  },
+  {
+    "id": "term-0549",
+    "english": "infection",
+    "meaning": "감염"
+  },
+  {
+    "id": "term-0550",
+    "english": "infertility",
+    "meaning": "불임"
+  },
+  {
+    "id": "term-0551",
+    "english": "inflammation",
+    "meaning": "염증"
+  },
+  {
+    "id": "term-0552",
+    "english": "influenza",
+    "meaning": "인플루엔자, 유행성 감기"
+  },
+  {
+    "id": "term-0553",
+    "english": "inguinal hernia",
+    "meaning": "서혜부탈장"
+  },
+  {
+    "id": "term-0554",
+    "english": "injection",
+    "meaning": "주사"
+  },
+  {
+    "id": "term-0555",
+    "english": "inotropic agent",
+    "meaning": "강심제"
+  },
+  {
+    "id": "term-0556",
+    "english": "insight",
+    "meaning": "병식 또는 통찰력"
+  },
+  {
+    "id": "term-0557",
+    "english": "insomnia",
+    "meaning": "불면증"
+  },
+  {
+    "id": "term-0558",
+    "english": "intensity of contraction",
+    "meaning": "수축강도"
+  },
+  {
+    "id": "term-0559",
+    "english": "interview",
+    "meaning": "면담"
+  },
+  {
+    "id": "term-0560",
+    "english": "intestinal diverticulosis",
+    "meaning": "장게실증"
+  },
+  {
+    "id": "term-0561",
+    "english": "intestinal obstruction",
+    "meaning": "장폐색증"
+  },
+  {
+    "id": "term-0562",
+    "english": "intracranial pressure",
+    "meaning": "두개내압, 뇌내압"
+  },
+  {
+    "id": "term-0563",
+    "english": "intramuscular injection",
+    "meaning": "근육주사"
+  },
+  {
+    "id": "term-0564",
+    "english": "intussusception",
+    "meaning": "장중첩증, 중적증"
+  },
+  {
+    "id": "term-0565",
+    "english": "inversion of uterus",
+    "meaning": "자궁내번증"
+  },
+  {
+    "id": "term-0566",
+    "english": "involution of uterus",
+    "meaning": "자궁퇴축"
+  },
+  {
+    "id": "term-0567",
+    "english": "iritis",
+    "meaning": "홍채염"
+  },
+  {
+    "id": "term-0568",
+    "english": "iron deficiency anemia",
+    "meaning": "철분결핍성 빈혈"
+  },
+  {
+    "id": "term-0569",
+    "english": "ischemia",
+    "meaning": "국소빈혈"
+  },
+  {
+    "id": "term-0570",
+    "english": "ischemic heart disease",
+    "meaning": "허혈성 심질환"
+  },
+  {
+    "id": "term-0571",
+    "english": "isolation",
+    "meaning": "격리"
+  },
+  {
+    "id": "term-0572",
+    "english": "isometric exercise",
+    "meaning": "등척성 운동"
+  },
+  {
+    "id": "term-0573",
+    "english": "isotonic exercise",
+    "meaning": "등장성 운동"
+  },
+  {
+    "id": "term-0574",
+    "english": "jaundice",
+    "meaning": "황달"
+  },
+  {
+    "id": "term-0575",
+    "english": "joint",
+    "meaning": "관절, 결합"
+  },
+  {
+    "id": "term-0576",
+    "english": "juvantia",
+    "meaning": "보조제"
+  },
+  {
+    "id": "term-0577",
+    "english": "Kaposi's sarcoma",
+    "meaning": "카포시 육종"
+  },
+  {
+    "id": "term-0578",
+    "english": "Kegel's exercise",
+    "meaning": "케겔 운동"
+  },
+  {
+    "id": "term-0579",
+    "english": "kelman's operation",
+    "meaning": "백내장수술"
+  },
+  {
+    "id": "term-0580",
+    "english": "keratitis",
+    "meaning": "각막염"
+  },
+  {
+    "id": "term-0581",
+    "english": "keratocentesis",
+    "meaning": "각막천자"
+  },
+  {
+    "id": "term-0582",
+    "english": "keratoplasty",
+    "meaning": "각막이식술"
+  },
+  {
+    "id": "term-0583",
+    "english": "kernicterus",
+    "meaning": "핵황달"
+  },
+  {
+    "id": "term-0584",
+    "english": "ketonuria",
+    "meaning": "케톤뇨"
+  },
+  {
+    "id": "term-0585",
+    "english": "ketosis",
+    "meaning": "케토시스"
+  },
+  {
+    "id": "term-0586",
+    "english": "kraurosis vulva",
+    "meaning": "외음위축증"
+  },
+  {
+    "id": "term-0587",
+    "english": "kussmaul's respiration",
+    "meaning": "쿠스마울 호흡"
+  },
+  {
+    "id": "term-0588",
+    "english": "kyphosis",
+    "meaning": "척추후만증"
+  },
+  {
+    "id": "term-0589",
+    "english": "labia majora",
+    "meaning": "대음순"
+  },
+  {
+    "id": "term-0590",
+    "english": "labia minora",
+    "meaning": "소음순"
+  },
+  {
+    "id": "term-0591",
+    "english": "laceration",
+    "meaning": "열상"
+  },
+  {
+    "id": "term-0592",
+    "english": "lactation",
+    "meaning": "수유(유즙의 분비)"
+  },
+  {
+    "id": "term-0593",
+    "english": "Lamaze method",
+    "meaning": "라마즈분만법"
+  },
+  {
+    "id": "term-0594",
+    "english": "laryngectomy",
+    "meaning": "후두절제술"
+  },
+  {
+    "id": "term-0595",
+    "english": "laryngitis",
+    "meaning": "후두염"
+  },
+  {
+    "id": "term-0596",
+    "english": "laryngoscopy",
+    "meaning": "후두경 검사"
+  },
+  {
+    "id": "term-0597",
+    "english": "laryngotomy",
+    "meaning": "후두절개술"
+  },
+  {
+    "id": "term-0598",
+    "english": "laxative",
+    "meaning": "완하제, 이완제"
+  },
+  {
+    "id": "term-0599",
+    "english": "learning disorders",
+    "meaning": "학습장애"
+  },
+  {
+    "id": "term-0600",
+    "english": "leiomyosarcoma",
+    "meaning": "평활근육종"
+  },
+  {
+    "id": "term-0601",
+    "english": "leprosy",
+    "meaning": "나병, 한센병"
+  },
+  {
+    "id": "term-0602",
+    "english": "leukemia",
+    "meaning": "백혈병"
+  },
+  {
+    "id": "term-0603",
+    "english": "leukoplakia",
+    "meaning": "백색각화증"
+  },
+  {
+    "id": "term-0604",
+    "english": "leukorrhea",
+    "meaning": "백대하"
+  },
+  {
+    "id": "term-0605",
+    "english": "levator ani muscle",
+    "meaning": "항문거근"
+  },
+  {
+    "id": "term-0606",
+    "english": "linea alba",
+    "meaning": "백선"
+  },
+  {
+    "id": "term-0607",
+    "english": "linea nigra",
+    "meaning": "흑선"
+  },
+  {
+    "id": "term-0608",
+    "english": "lithiasis",
+    "meaning": "결석증"
+  },
+  {
+    "id": "term-0609",
+    "english": "Lithotomy position",
+    "meaning": "쇄석위"
+  },
+  {
+    "id": "term-0610",
+    "english": "liver biopsy",
+    "meaning": "간생검"
+  },
+  {
+    "id": "term-0611",
+    "english": "liver cirrhosis",
+    "meaning": "간경변증"
+  },
+  {
+    "id": "term-0612",
+    "english": "liver engorgement",
+    "meaning": "간울혈"
+  },
+  {
+    "id": "term-0613",
+    "english": "liver function test",
+    "meaning": "간기능검사"
+  },
+  {
+    "id": "term-0614",
+    "english": "liver transplantation",
+    "meaning": "간이식"
+  },
+  {
+    "id": "term-0615",
+    "english": "localized symptoms",
+    "meaning": "국소 증상"
+  },
+  {
+    "id": "term-0616",
+    "english": "lochia",
+    "meaning": "오로"
+  },
+  {
+    "id": "term-0617",
+    "english": "lordosis",
+    "meaning": "척추전만증"
+  },
+  {
+    "id": "term-0618",
+    "english": "low back pain",
+    "meaning": "요통"
+  },
+  {
+    "id": "term-0619",
+    "english": "low-residue diet",
+    "meaning": "저섬유소 식이"
+  },
+  {
+    "id": "term-0620",
+    "english": "lung abscess",
+    "meaning": "폐농양"
+  },
+  {
+    "id": "term-0621",
+    "english": "lung biopsy",
+    "meaning": "폐생검"
+  },
+  {
+    "id": "term-0622",
+    "english": "long cancer",
+    "meaning": "폐암"
+  },
+  {
+    "id": "term-0623",
+    "english": "lymphedema",
+    "meaning": "림프 부종"
+  },
+  {
+    "id": "term-0624",
+    "english": "lymphocytopenia",
+    "meaning": "림프구 감소증"
+  },
+  {
+    "id": "term-0625",
+    "english": "macrosomia",
+    "meaning": "거대아"
+  },
+  {
+    "id": "term-0626",
+    "english": "macule",
+    "meaning": "반점"
+  },
+  {
+    "id": "term-0627",
+    "english": "major depressive disorder",
+    "meaning": "주요 우울장애"
+  },
+  {
+    "id": "term-0628",
+    "english": "malignant",
+    "meaning": "종양"
+  },
+  {
+    "id": "term-0629",
+    "english": "mammary gland",
+    "meaning": "젖샘"
+  },
+  {
+    "id": "term-0630",
+    "english": "mastalgia",
+    "meaning": "유방통"
+  },
+  {
+    "id": "term-0631",
+    "english": "mastitis",
+    "meaning": "유방염, 유선염"
+  },
+  {
+    "id": "term-0632",
+    "english": "measles",
+    "meaning": "홍역"
+  },
+  {
+    "id": "term-0633",
+    "english": "mechanism of labor",
+    "meaning": "분만기전"
+  },
+  {
+    "id": "term-0634",
+    "english": "meconium",
+    "meaning": "태변"
+  },
+  {
+    "id": "term-0635",
+    "english": "medical asepsis",
+    "meaning": "내과적 무균법"
+  },
+  {
+    "id": "term-0636",
+    "english": "medication",
+    "meaning": "투약"
+  },
+  {
+    "id": "term-0637",
+    "english": "medication record",
+    "meaning": "투약기록"
+  },
+  {
+    "id": "term-0638",
+    "english": "megaloblastic anemia",
+    "meaning": "거대적아구성 빈혈"
+  },
+  {
+    "id": "term-0639",
+    "english": "Meig's syndrome",
+    "meaning": "복수, 흉수 증후군"
+  },
+  {
+    "id": "term-0640",
+    "english": "melanoderma",
+    "meaning": "흑피증"
+  },
+  {
+    "id": "term-0641",
+    "english": "melena",
+    "meaning": "혈변, 흑색변"
+  },
+  {
+    "id": "term-0642",
+    "english": "menarche",
+    "meaning": "초경"
+  },
+  {
+    "id": "term-0643",
+    "english": "Meniere's disease",
+    "meaning": "메니에르병"
+  },
+  {
+    "id": "term-0644",
+    "english": "meningitis",
+    "meaning": "수막염, 뇌막염"
+  },
+  {
+    "id": "term-0645",
+    "english": "meningoblastoma",
+    "meaning": "수막아세포종"
+  },
+  {
+    "id": "term-0646",
+    "english": "meningoencephalitis",
+    "meaning": "수막뇌염"
+  },
+  {
+    "id": "term-0647",
+    "english": "menopause",
+    "meaning": "폐경"
+  },
+  {
+    "id": "term-0648",
+    "english": "menorrhagia",
+    "meaning": "월경과다"
+  },
+  {
+    "id": "term-0649",
+    "english": "menstruation",
+    "meaning": "월경"
+  },
+  {
+    "id": "term-0650",
+    "english": "mental retardation",
+    "meaning": "정신지체"
+  },
+  {
+    "id": "term-0651",
+    "english": "metabolic acidosis",
+    "meaning": "대사성 산증"
+  },
+  {
+    "id": "term-0652",
+    "english": "metabolic alkalosis",
+    "meaning": "대사성 알카리증"
+  },
+  {
+    "id": "term-0653",
+    "english": "metastasis",
+    "meaning": "전이"
+  },
+  {
+    "id": "term-0654",
+    "english": "metrorrhagia",
+    "meaning": "자궁출혈"
+  },
+  {
+    "id": "term-0655",
+    "english": "midwife",
+    "meaning": "조산사"
+  },
+  {
+    "id": "term-0656",
+    "english": "migraine",
+    "meaning": "편두통"
+  },
+  {
+    "id": "term-0657",
+    "english": "Mile's operation",
+    "meaning": "마일즈 수술"
+  },
+  {
+    "id": "term-0658",
+    "english": "mitral stenosis",
+    "meaning": "승모판 협착증"
+  },
+  {
+    "id": "term-0659",
+    "english": "moist cold",
+    "meaning": "습냉"
+  },
+  {
+    "id": "term-0660",
+    "english": "moist heat",
+    "meaning": "습열"
+  },
+  {
+    "id": "term-0661",
+    "english": "mongolian spot",
+    "meaning": "몽고반점"
+  },
+  {
+    "id": "term-0662",
+    "english": "mood disorder",
+    "meaning": "기분장애"
+  },
+  {
+    "id": "term-0663",
+    "english": "morning sickness",
+    "meaning": "입덧"
+  },
+  {
+    "id": "term-0664",
+    "english": "morula",
+    "meaning": "상실배"
+  },
+  {
+    "id": "term-0665",
+    "english": "multiple myeloma",
+    "meaning": "다발성 골수종"
+  },
+  {
+    "id": "term-0666",
+    "english": "multiple pregnancy",
+    "meaning": "다태임신"
+  },
+  {
+    "id": "term-0667",
+    "english": "multiple sclerosis",
+    "meaning": "다발성 경화증"
+  },
+  {
+    "id": "term-0668",
+    "english": "mumps",
+    "meaning": "유행성 이하선염, 볼거리"
+  },
+  {
+    "id": "term-0669",
+    "english": "muscle spasm",
+    "meaning": "근육연축"
+  },
+  {
+    "id": "term-0670",
+    "english": "music therapy",
+    "meaning": "음악요법"
+  },
+  {
+    "id": "term-0671",
+    "english": "Mullerian duct",
+    "meaning": "뮐뤄관"
+  },
+  {
+    "id": "term-0672",
+    "english": "myelography",
+    "meaning": "척수조영술"
+  },
+  {
+    "id": "term-0673",
+    "english": "myocardial infarction",
+    "meaning": "심근경색증"
+  },
+  {
+    "id": "term-0674",
+    "english": "myosis",
+    "meaning": "동공축소"
+  },
+  {
+    "id": "term-0675",
+    "english": "myositis",
+    "meaning": "근염"
+  },
+  {
+    "id": "term-0676",
+    "english": "myringoplasty",
+    "meaning": "고막성형술"
+  },
+  {
+    "id": "term-0677",
+    "english": "myxedema",
+    "meaning": "점액수종"
+  },
+  {
+    "id": "term-0678",
+    "english": "narcolepsy",
+    "meaning": "기면증"
+  },
+  {
+    "id": "term-0679",
+    "english": "nasopharyngitis",
+    "meaning": "비인두염"
+  },
+  {
+    "id": "term-0680",
+    "english": "nausea",
+    "meaning": "오심, 구역질"
+  },
+  {
+    "id": "term-0681",
+    "english": "necrosis",
+    "meaning": "괴사"
+  },
+  {
+    "id": "term-0682",
+    "english": "neonatal respiratory distress",
+    "meaning": "신생아 호흡곤란"
+  },
+  {
+    "id": "term-0683",
+    "english": "nephrectomy",
+    "meaning": "신장적출술"
+  },
+  {
+    "id": "term-0684",
+    "english": "nephritis",
+    "meaning": "신장염"
+  },
+  {
+    "id": "term-0685",
+    "english": "nephrolithiasis",
+    "meaning": "신결석증"
+  },
+  {
+    "id": "term-0686",
+    "english": "nephropathy",
+    "meaning": "사구체질환"
+  },
+  {
+    "id": "term-0687",
+    "english": "nephrotic syndrome",
+    "meaning": "신증후군"
+  },
+  {
+    "id": "term-0688",
+    "english": "neuralgia",
+    "meaning": "신경통"
+  },
+  {
+    "id": "term-0689",
+    "english": "neurocytoma",
+    "meaning": "신경세포종"
+  },
+  {
+    "id": "term-0690",
+    "english": "Neuropsychological test",
+    "meaning": "신경심리검사"
+  },
+  {
+    "id": "term-0691",
+    "english": "neutropenia",
+    "meaning": "호중구 감소증"
+  },
+  {
+    "id": "term-0692",
+    "english": "neutrophilia",
+    "meaning": "호중구 증가증"
+  },
+  {
+    "id": "term-0693",
+    "english": "nevus",
+    "meaning": "모반"
+  },
+  {
+    "id": "term-0694",
+    "english": "nocturia",
+    "meaning": "야뇨(증)"
+  },
+  {
+    "id": "term-0695",
+    "english": "nosocomial infection",
+    "meaning": "병원 감염"
+  },
+  {
+    "id": "term-0696",
+    "english": "numbness",
+    "meaning": "무감각"
+  },
+  {
+    "id": "term-0697",
+    "english": "nursing",
+    "meaning": "간호"
+  },
+  {
+    "id": "term-0698",
+    "english": "nursing accident",
+    "meaning": "간호 사고"
+  },
+  {
+    "id": "term-0699",
+    "english": "nursing care plan",
+    "meaning": "간호 계획"
+  },
+  {
+    "id": "term-0700",
+    "english": "nursing care round",
+    "meaning": "간호 회진"
+  },
+  {
+    "id": "term-0701",
+    "english": "nursing diagnosis",
+    "meaning": "간호 진단"
+  },
+  {
+    "id": "term-0702",
+    "english": "nursing history",
+    "meaning": "간호력"
+  },
+  {
+    "id": "term-0703",
+    "english": "nursing process",
+    "meaning": "간호과정"
+  },
+  {
+    "id": "term-0704",
+    "english": "nursing theory",
+    "meaning": "간호이론"
+  },
+  {
+    "id": "term-0705",
+    "english": "nutrition",
+    "meaning": "영양"
+  },
+  {
+    "id": "term-0706",
+    "english": "nyctalopia",
+    "meaning": "야맹증"
+  },
+  {
+    "id": "term-0707",
+    "english": "nystagmus",
+    "meaning": "안구진탕증"
+  },
+  {
+    "id": "term-0708",
+    "english": "obesity",
+    "meaning": "비만(증)"
+  },
+  {
+    "id": "term-0709",
+    "english": "objective data",
+    "meaning": "객관적 자료"
+  },
+  {
+    "id": "term-0710",
+    "english": "observation",
+    "meaning": "관찰"
+  },
+  {
+    "id": "term-0711",
+    "english": "obsessive-compulsive disorder",
+    "meaning": "강박장애"
+  },
+  {
+    "id": "term-0712",
+    "english": "obstruction",
+    "meaning": "폐색증"
+  },
+  {
+    "id": "term-0713",
+    "english": "occipital lobe",
+    "meaning": "후두엽"
+  },
+  {
+    "id": "term-0714",
+    "english": "occult blood",
+    "meaning": "잠혈"
+  },
+  {
+    "id": "term-0715",
+    "english": "oligohydramnios",
+    "meaning": "양수과소증"
+  },
+  {
+    "id": "term-0716",
+    "english": "oliguria",
+    "meaning": "핍뇨"
+  },
+  {
+    "id": "term-0717",
+    "english": "omphalocele",
+    "meaning": "배꼽 탈장"
+  },
+  {
+    "id": "term-0718",
+    "english": "oophorectomy",
+    "meaning": "난소절제술"
+  },
+  {
+    "id": "term-0719",
+    "english": "oozing",
+    "meaning": "삼출성"
+  },
+  {
+    "id": "term-0720",
+    "english": "ophthalmoscope",
+    "meaning": "검안경"
+  },
+  {
+    "id": "term-0721",
+    "english": "oral contraceptives",
+    "meaning": "구강 피임약"
+  },
+  {
+    "id": "term-0722",
+    "english": "orientation",
+    "meaning": "지남력"
+  },
+  {
+    "id": "term-0723",
+    "english": "orthopnea",
+    "meaning": "기좌호흡"
+  },
+  {
+    "id": "term-0724",
+    "english": "osteoarthritis",
+    "meaning": "골관절염"
+  },
+  {
+    "id": "term-0725",
+    "english": "osteomalacia",
+    "meaning": "골연화증"
+  },
+  {
+    "id": "term-0726",
+    "english": "osteomyelitis",
+    "meaning": "골수염"
+  },
+  {
+    "id": "term-0727",
+    "english": "osteoporosis",
+    "meaning": "골다공증"
+  },
+  {
+    "id": "term-0728",
+    "english": "otalgia",
+    "meaning": "이통"
+  },
+  {
+    "id": "term-0729",
+    "english": "otitis externa",
+    "meaning": "외이염"
+  },
+  {
+    "id": "term-0730",
+    "english": "otitis media",
+    "meaning": "중이염"
+  },
+  {
+    "id": "term-0731",
+    "english": "otoscope",
+    "meaning": "이경"
+  },
+  {
+    "id": "term-0732",
+    "english": "ovarian follicle",
+    "meaning": "난포"
+  },
+  {
+    "id": "term-0733",
+    "english": "ovary",
+    "meaning": "난소"
+  },
+  {
+    "id": "term-0734",
+    "english": "oviduct",
+    "meaning": "난관, 자궁관"
+  },
+  {
+    "id": "term-0735",
+    "english": "ovulation",
+    "meaning": "배란"
+  },
+  {
+    "id": "term-0736",
+    "english": "ovum",
+    "meaning": "난자(여성생식세포)"
+  },
+  {
+    "id": "term-0737",
+    "english": "oxygen therapy",
+    "meaning": "산소요법"
+  },
+  {
+    "id": "term-0738",
+    "english": "oxytocin",
+    "meaning": "옥시토신(분만촉진제)"
+  },
+  {
+    "id": "term-0739",
+    "english": "pacemaker",
+    "meaning": "심박조율기"
+  },
+  {
+    "id": "term-0740",
+    "english": "pain disorder",
+    "meaning": "통증장애"
+  },
+  {
+    "id": "term-0741",
+    "english": "palpation",
+    "meaning": "촉진"
+  },
+  {
+    "id": "term-0742",
+    "english": "palpitation",
+    "meaning": "심계항진, 두근거림"
+  },
+  {
+    "id": "term-0743",
+    "english": "pancreatitis",
+    "meaning": "췌장염"
+  },
+  {
+    "id": "term-0744",
+    "english": "pandemic",
+    "meaning": "범유행"
+  },
+  {
+    "id": "term-0745",
+    "english": "panic",
+    "meaning": "공황"
+  },
+  {
+    "id": "term-0746",
+    "english": "painic disorder",
+    "meaning": "공황장애"
+  },
+  {
+    "id": "term-0747",
+    "english": "papule",
+    "meaning": "구진"
+  },
+  {
+    "id": "term-0748",
+    "english": "paracentesis",
+    "meaning": "복수천자"
+  },
+  {
+    "id": "term-0749",
+    "english": "paradoxical respiration",
+    "meaning": "역리 호흡"
+  },
+  {
+    "id": "term-0750",
+    "english": "paralysis",
+    "meaning": "마비"
+  },
+  {
+    "id": "term-0751",
+    "english": "paranoid personality disoreder",
+    "meaning": "편집성 인격장애"
+  },
+  {
+    "id": "term-0752",
+    "english": "paranoid type",
+    "meaning": "편집형"
+  },
+  {
+    "id": "term-0753",
+    "english": "paraphilias, sexual deviation",
+    "meaning": "성도착증 또는 변태성욕"
+  },
+  {
+    "id": "term-0754",
+    "english": "parasympathetic",
+    "meaning": "부교감신경성의"
+  },
+  {
+    "id": "term-0755",
+    "english": "parenteral nutrition",
+    "meaning": "비경구적 영양"
+  },
+  {
+    "id": "term-0756",
+    "english": "parietal lobe",
+    "meaning": "두정엽"
+  },
+  {
+    "id": "term-0757",
+    "english": "parotitis",
+    "meaning": "이하선염"
+  },
+  {
+    "id": "term-0758",
+    "english": "paroxysmal supraventricular tachycardia",
+    "meaning": "발작성 심실상부빈맥"
+  },
+  {
+    "id": "term-0759",
+    "english": "partial bath",
+    "meaning": "부분목욕"
+  },
+  {
+    "id": "term-0760",
+    "english": "parturition",
+    "meaning": "분만"
+  },
+  {
+    "id": "term-0761",
+    "english": "passage way",
+    "meaning": "산도"
+  },
+  {
+    "id": "term-0762",
+    "english": "patch",
+    "meaning": "반창고, 반점"
+  },
+  {
+    "id": "term-0763",
+    "english": "pathogen",
+    "meaning": "병원체"
+  },
+  {
+    "id": "term-0764",
+    "english": "pelvic outlet",
+    "meaning": "골반출구"
+  },
+  {
+    "id": "term-0765",
+    "english": "penis",
+    "meaning": "음경"
+  },
+  {
+    "id": "term-0766",
+    "english": "penis envy",
+    "meaning": "남근 선망"
+  },
+  {
+    "id": "term-0767",
+    "english": "peptic ulcer",
+    "meaning": "소화성 궤양"
+  },
+  {
+    "id": "term-0768",
+    "english": "perception",
+    "meaning": "인지"
+  },
+  {
+    "id": "term-0769",
+    "english": "percussion",
+    "meaning": "두드리기, 타진"
+  },
+  {
+    "id": "term-0770",
+    "english": "perforation",
+    "meaning": "천공"
+  },
+  {
+    "id": "term-0771",
+    "english": "pericardial effusion",
+    "meaning": "심낭삼출액"
+  },
+  {
+    "id": "term-0772",
+    "english": "perineum",
+    "meaning": "회음"
+  },
+  {
+    "id": "term-0773",
+    "english": "periostitis",
+    "meaning": "골막염"
+  },
+  {
+    "id": "term-0774",
+    "english": "peristalsis",
+    "meaning": "연동운동"
+  },
+  {
+    "id": "term-0775",
+    "english": "peritonitis",
+    "meaning": "복막염"
+  },
+  {
+    "id": "term-0776",
+    "english": "pernicious anemia",
+    "meaning": "악성빈혈"
+  },
+  {
+    "id": "term-0777",
+    "english": "persecutory delusion",
+    "meaning": "피해망상"
+  },
+  {
+    "id": "term-0778",
+    "english": "personal hygiene",
+    "meaning": "개인위생"
+  },
+  {
+    "id": "term-0779",
+    "english": "Personality test",
+    "meaning": "인성검사"
+  },
+  {
+    "id": "term-0780",
+    "english": "pessary",
+    "meaning": "페서리(질과 자궁경관에 장치하는 기구)"
+  },
+  {
+    "id": "term-0781",
+    "english": "petechia",
+    "meaning": "점상 출혈"
+  },
+  {
+    "id": "term-0782",
+    "english": "pharyngitis",
+    "meaning": "인두염"
+  },
+  {
+    "id": "term-0783",
+    "english": "phlebitis",
+    "meaning": "정맥염"
+  },
+  {
+    "id": "term-0784",
+    "english": "phlebotomy",
+    "meaning": "정맥절개술"
+  },
+  {
+    "id": "term-0785",
+    "english": "phototherapy",
+    "meaning": "형광요법(광선요법)"
+  },
+  {
+    "id": "term-0786",
+    "english": "physical assessment",
+    "meaning": "신체사정"
+  },
+  {
+    "id": "term-0787",
+    "english": "pitting edema",
+    "meaning": "요흔성 부종"
+  },
+  {
+    "id": "term-0788",
+    "english": "placebo",
+    "meaning": "위약"
+  },
+  {
+    "id": "term-0789",
+    "english": "placenta",
+    "meaning": "태반"
+  },
+  {
+    "id": "term-0790",
+    "english": "placenta accreta",
+    "meaning": "유착태반"
+  },
+  {
+    "id": "term-0791",
+    "english": "placenta previa",
+    "meaning": "전치태반"
+  },
+  {
+    "id": "term-0792",
+    "english": "placental expulsion",
+    "meaning": "태반만출"
+  },
+  {
+    "id": "term-0793",
+    "english": "plaster",
+    "meaning": "반창고, 반점"
+  },
+  {
+    "id": "term-0794",
+    "english": "pleura",
+    "meaning": "흉막"
+  },
+  {
+    "id": "term-0795",
+    "english": "pleural effusion",
+    "meaning": "흉막삼출액"
+  },
+  {
+    "id": "term-0796",
+    "english": "pleurisy",
+    "meaning": "흉막염"
+  },
+  {
+    "id": "term-0797",
+    "english": "pneumonectomy",
+    "meaning": "폐절제술"
+  },
+  {
+    "id": "term-0798",
+    "english": "pneumonia",
+    "meaning": "폐렴"
+  },
+  {
+    "id": "term-0799",
+    "english": "pneumothorax",
+    "meaning": "기흉"
+  },
+  {
+    "id": "term-0800",
+    "english": "poisoning",
+    "meaning": "중독"
+  },
+  {
+    "id": "term-0801",
+    "english": "polyhydramnios",
+    "meaning": "양수과다"
+  },
+  {
+    "id": "term-0802",
+    "english": "poliomyelitis",
+    "meaning": "소아마비"
+  },
+  {
+    "id": "term-0803",
+    "english": "polycythemia",
+    "meaning": "다혈구증"
+  },
+  {
+    "id": "term-0804",
+    "english": "polydactyly",
+    "meaning": "다지증"
+  },
+  {
+    "id": "term-0805",
+    "english": "ploydipsia",
+    "meaning": "다갈증"
+  },
+  {
+    "id": "term-0806",
+    "english": "polyp",
+    "meaning": "용종"
+  },
+  {
+    "id": "term-0807",
+    "english": "polyphagia",
+    "meaning": "다식증, 대식"
+  },
+  {
+    "id": "term-0808",
+    "english": "polyuria",
+    "meaning": "다뇨증, 다뇨"
+  },
+  {
+    "id": "term-0809",
+    "english": "post term infant",
+    "meaning": "만숙아"
+  },
+  {
+    "id": "term-0810",
+    "english": "post-traumatic stress disorder",
+    "meaning": "외상 후 스트레스장애"
+  },
+  {
+    "id": "term-0811",
+    "english": "postmature infant",
+    "meaning": "과숙아"
+  },
+  {
+    "id": "term-0812",
+    "english": "postpartum",
+    "meaning": "산욕기(산후 6~8주까지의 시기)"
+  },
+  {
+    "id": "term-0813",
+    "english": "postpartum blues",
+    "meaning": "산후우울"
+  },
+  {
+    "id": "term-0814",
+    "english": "postpartum depression",
+    "meaning": "산후우울증"
+  },
+  {
+    "id": "term-0815",
+    "english": "postpartum infection",
+    "meaning": "산욕기 감염"
+  },
+  {
+    "id": "term-0816",
+    "english": "postural drainage",
+    "meaning": "체위배액"
+  },
+  {
+    "id": "term-0817",
+    "english": "powers",
+    "meaning": "만출력"
+  },
+  {
+    "id": "term-0818",
+    "english": "preeclampsia",
+    "meaning": "자간전증"
+  },
+  {
+    "id": "term-0819",
+    "english": "preload",
+    "meaning": "전부하"
+  },
+  {
+    "id": "term-0820",
+    "english": "premature contraction",
+    "meaning": "조기수축"
+  },
+  {
+    "id": "term-0821",
+    "english": "premature infant",
+    "meaning": "조산아"
+  },
+  {
+    "id": "term-0822",
+    "english": "prematurity",
+    "meaning": "미숙아, 미숙"
+  },
+  {
+    "id": "term-0823",
+    "english": "presbycusis",
+    "meaning": "노인성 난청"
+  },
+  {
+    "id": "term-0824",
+    "english": "presbyopia",
+    "meaning": "노안, 노시"
+  },
+  {
+    "id": "term-0825",
+    "english": "prescription",
+    "meaning": "처방"
+  },
+  {
+    "id": "term-0826",
+    "english": "pressoreceptor",
+    "meaning": "압수용기"
+  },
+  {
+    "id": "term-0827",
+    "english": "pressure ulcer",
+    "meaning": "욕창"
+  },
+  {
+    "id": "term-0828",
+    "english": "primary sex characteristics",
+    "meaning": "1차 성징"
+  },
+  {
+    "id": "term-0829",
+    "english": "primipara",
+    "meaning": "초산부"
+  },
+  {
+    "id": "term-0830",
+    "english": "problem-oriented record",
+    "meaning": "문제중심기록"
+  },
+  {
+    "id": "term-0831",
+    "english": "progesteron",
+    "meaning": "프로게스테론"
+  },
+  {
+    "id": "term-0832",
+    "english": "progress notes",
+    "meaning": "경과기록"
+  },
+  {
+    "id": "term-0833",
+    "english": "projection",
+    "meaning": "투사"
+  },
+  {
+    "id": "term-0834",
+    "english": "prolapse of cord",
+    "meaning": "제대탈출"
+  },
+  {
+    "id": "term-0835",
+    "english": "prolonged labor",
+    "meaning": "지연분만"
+  },
+  {
+    "id": "term-0836",
+    "english": "prone position",
+    "meaning": "복위"
+  },
+  {
+    "id": "term-0837",
+    "english": "prostaglandins",
+    "meaning": "프로스타글란딘"
+  },
+  {
+    "id": "term-0838",
+    "english": "prostate",
+    "meaning": "전립샘"
+  },
+  {
+    "id": "term-0839",
+    "english": "prostatectomy",
+    "meaning": "전립샘절제술"
+  },
+  {
+    "id": "term-0840",
+    "english": "proteinuria",
+    "meaning": "단백뇨"
+  },
+  {
+    "id": "term-0841",
+    "english": "pruritus",
+    "meaning": "소양증, 가려움증"
+  },
+  {
+    "id": "term-0842",
+    "english": "pseudopregnancy",
+    "meaning": "거짓임신"
+  },
+  {
+    "id": "term-0843",
+    "english": "psoriasis",
+    "meaning": "건선"
+  },
+  {
+    "id": "term-0844",
+    "english": "psychoanalysis",
+    "meaning": "정신분석"
+  },
+  {
+    "id": "term-0845",
+    "english": "psychodrama",
+    "meaning": "심리극"
+  },
+  {
+    "id": "term-0846",
+    "english": "psychogenic amnesia",
+    "meaning": "심인성 기억상실"
+  },
+  {
+    "id": "term-0847",
+    "english": "psychopharmacology",
+    "meaning": "정신약리학"
+  },
+  {
+    "id": "term-0848",
+    "english": "psychotherapy",
+    "meaning": "정신치료"
+  },
+  {
+    "id": "term-0849",
+    "english": "puberty",
+    "meaning": "사춘기"
+  },
+  {
+    "id": "term-0850",
+    "english": "pudendal block anesthesia",
+    "meaning": "외음부 차단술"
+  },
+  {
+    "id": "term-0851",
+    "english": "puerperal fever",
+    "meaning": "산욕열"
+  },
+  {
+    "id": "term-0852",
+    "english": "puerperal sepsis",
+    "meaning": "산욕기 패혈증"
+  },
+  {
+    "id": "term-0853",
+    "english": "puerperium psychosis",
+    "meaning": "산후정신병적 우울증"
+  },
+  {
+    "id": "term-0854",
+    "english": "pulmonary angiography",
+    "meaning": "폐혈관조영술"
+  },
+  {
+    "id": "term-0855",
+    "english": "pulmonary artery pressure",
+    "meaning": "폐동맥압"
+  },
+  {
+    "id": "term-0856",
+    "english": "pulmonary edema",
+    "meaning": "폐수종"
+  },
+  {
+    "id": "term-0857",
+    "english": "pulmonary emphysema",
+    "meaning": "폐기종"
+  },
+  {
+    "id": "term-0858",
+    "english": "pulmonary fibrosis",
+    "meaning": "폐섬유증"
+  },
+  {
+    "id": "term-0859",
+    "english": "pulmonary infarction",
+    "meaning": "폐경색"
+  },
+  {
+    "id": "term-0860",
+    "english": "pulmonary tuberculosis",
+    "meaning": "폐결핵"
+  },
+  {
+    "id": "term-0861",
+    "english": "pulse",
+    "meaning": "맥박"
+  },
+  {
+    "id": "term-0862",
+    "english": "purpura",
+    "meaning": "자반"
+  },
+  {
+    "id": "term-0863",
+    "english": "pus pan",
+    "meaning": "곡반"
+  },
+  {
+    "id": "term-0864",
+    "english": "pustule",
+    "meaning": "농포"
+  },
+  {
+    "id": "term-0865",
+    "english": "pyelitis",
+    "meaning": "신우염"
+  },
+  {
+    "id": "term-0866",
+    "english": "pyelonephritis",
+    "meaning": "신우신염"
+  },
+  {
+    "id": "term-0867",
+    "english": "pyloric obstruction",
+    "meaning": "유문폐쇄"
+  },
+  {
+    "id": "term-0868",
+    "english": "pyloric stenosis",
+    "meaning": "유문협착"
+  },
+  {
+    "id": "term-0869",
+    "english": "pyloroplasty",
+    "meaning": "유문형성술"
+  },
+  {
+    "id": "term-0870",
+    "english": "pylorospasm",
+    "meaning": "유문경련"
+  },
+  {
+    "id": "term-0871",
+    "english": "pyrexia",
+    "meaning": "발열"
+  },
+  {
+    "id": "term-0872",
+    "english": "pyuria",
+    "meaning": "농뇨"
+  },
+  {
+    "id": "term-0873",
+    "english": "rectocele",
+    "meaning": "직장류"
+  },
+  {
+    "id": "term-0874",
+    "english": "rectovaginal fistula",
+    "meaning": "직장질루"
+  },
+  {
+    "id": "term-0875",
+    "english": "refusal of food",
+    "meaning": "거식증"
+  },
+  {
+    "id": "term-0876",
+    "english": "regional enteritis",
+    "meaning": "국소성 회장염"
+  },
+  {
+    "id": "term-0877",
+    "english": "regression",
+    "meaning": "퇴행"
+  },
+  {
+    "id": "term-0878",
+    "english": "regurgitation",
+    "meaning": "역류"
+  },
+  {
+    "id": "term-0879",
+    "english": "relaxation training",
+    "meaning": "이완훈련"
+  },
+  {
+    "id": "term-0880",
+    "english": "renal biopsy",
+    "meaning": "신생검"
+  },
+  {
+    "id": "term-0881",
+    "english": "renal failure",
+    "meaning": "신기능부전"
+  },
+  {
+    "id": "term-0882",
+    "english": "repolarization",
+    "meaning": "재분극"
+  },
+  {
+    "id": "term-0883",
+    "english": "repression",
+    "meaning": "억압"
+  },
+  {
+    "id": "term-0884",
+    "english": "resident bacteria/flora",
+    "meaning": "상주균"
+  },
+  {
+    "id": "term-0885",
+    "english": "resonance",
+    "meaning": "공명음"
+  },
+  {
+    "id": "term-0886",
+    "english": "respiration",
+    "meaning": "호흡"
+  },
+  {
+    "id": "term-0887",
+    "english": "restraint",
+    "meaning": "억제대"
+  },
+  {
+    "id": "term-0888",
+    "english": "retained placental fragments",
+    "meaning": "태반잔류조직"
+  },
+  {
+    "id": "term-0889",
+    "english": "retinal detachment",
+    "meaning": "망막박리"
+  },
+  {
+    "id": "term-0890",
+    "english": "retrolental fibroplasia",
+    "meaning": "수정체 후부 섬유 증식증"
+  },
+  {
+    "id": "term-0891",
+    "english": "rheumatic fever",
+    "meaning": "류머티즘열"
+  },
+  {
+    "id": "term-0892",
+    "english": "rheumatioid arthritis",
+    "meaning": "류머티즘 관절염"
+  },
+  {
+    "id": "term-0893",
+    "english": "rhonchi",
+    "meaning": "수포음"
+  },
+  {
+    "id": "term-0894",
+    "english": "rigidity",
+    "meaning": "경축, 경직"
+  },
+  {
+    "id": "term-0895",
+    "english": "sabin vaccine",
+    "meaning": "경구용 소아마비약(생백신)"
+  },
+  {
+    "id": "term-0896",
+    "english": "salk vaccine",
+    "meaning": "주사용 소아마비약(사백신)"
+  },
+  {
+    "id": "term-0897",
+    "english": "salpingectomy",
+    "meaning": "난관절제술"
+  },
+  {
+    "id": "term-0898",
+    "english": "salpingitis",
+    "meaning": "난관염"
+  },
+  {
+    "id": "term-0899",
+    "english": "sarcoma",
+    "meaning": "육종"
+  },
+  {
+    "id": "term-0900",
+    "english": "saturated fatty acid",
+    "meaning": "포화 지방산"
+  },
+  {
+    "id": "term-0901",
+    "english": "saucerization",
+    "meaning": "배형성"
+  },
+  {
+    "id": "term-0902",
+    "english": "scabies",
+    "meaning": "옴, 개선"
+  },
+  {
+    "id": "term-0903",
+    "english": "scale",
+    "meaning": "체중기"
+  },
+  {
+    "id": "term-0904",
+    "english": "scale(schuppe)",
+    "meaning": "인설"
+  },
+  {
+    "id": "term-0905",
+    "english": "scar",
+    "meaning": "흉터, 반흔"
+  },
+  {
+    "id": "term-0906",
+    "english": "scarlet fever",
+    "meaning": "성홍열"
+  },
+  {
+    "id": "term-0907",
+    "english": "schizoid personality disorder",
+    "meaning": "분열성 인격장애"
+  },
+  {
+    "id": "term-0908",
+    "english": "schizophrenia",
+    "meaning": "정신분열병"
+  },
+  {
+    "id": "term-0909",
+    "english": "schizotypal personality disorder",
+    "meaning": "분열형 인격장애"
+  },
+  {
+    "id": "term-0910",
+    "english": "scissors",
+    "meaning": "가위"
+  },
+  {
+    "id": "term-0911",
+    "english": "scoliosis",
+    "meaning": "척추측만증"
+  },
+  {
+    "id": "term-0912",
+    "english": "scrotum",
+    "meaning": "음낭"
+  },
+  {
+    "id": "term-0913",
+    "english": "scurvy",
+    "meaning": "괴혈병"
+  },
+  {
+    "id": "term-0914",
+    "english": "seborrheic dermatitis",
+    "meaning": "지루성 피부염"
+  },
+  {
+    "id": "term-0915",
+    "english": "secondary hypertension",
+    "meaning": "2차성 고혈압"
+  },
+  {
+    "id": "term-0916",
+    "english": "secondary sex characteristics",
+    "meaning": "2차 성징"
+  },
+  {
+    "id": "term-0917",
+    "english": "seizure",
+    "meaning": "간질발작, 발작"
+  },
+  {
+    "id": "term-0918",
+    "english": "self-help group",
+    "meaning": "자조집단"
+  },
+  {
+    "id": "term-0919",
+    "english": "seminal vesicle",
+    "meaning": "정낭"
+  },
+  {
+    "id": "term-0920",
+    "english": "senile lentigo",
+    "meaning": "노인성 반점"
+  },
+  {
+    "id": "term-0921",
+    "english": "septectomy",
+    "meaning": "비중격절제술"
+  },
+  {
+    "id": "term-0922",
+    "english": "septicemia",
+    "meaning": "패혈증"
+  },
+  {
+    "id": "term-0923",
+    "english": "sexual aversion disorders",
+    "meaning": "성적 혐오장애"
+  },
+  {
+    "id": "term-0924",
+    "english": "sexual frigidity",
+    "meaning": "성불감증"
+  },
+  {
+    "id": "term-0925",
+    "english": "sexual masochism",
+    "meaning": "성적 피학증"
+  },
+  {
+    "id": "term-0926",
+    "english": "sexual sadism",
+    "meaning": "성적 가학증"
+  },
+  {
+    "id": "term-0927",
+    "english": "show",
+    "meaning": "이슬"
+  },
+  {
+    "id": "term-0928",
+    "english": "Sheehan's syndrome",
+    "meaning": "뇌하수체괴사증후군"
+  },
+  {
+    "id": "term-0929",
+    "english": "sickle cell anemia",
+    "meaning": "겸상적혈구성 빈혈"
+  },
+  {
+    "id": "term-0930",
+    "english": "side rail",
+    "meaning": "침상난간"
+  },
+  {
+    "id": "term-0931",
+    "english": "sigmoidoscopy",
+    "meaning": "S상결장경검사법"
+  },
+  {
+    "id": "term-0932",
+    "english": "silicosis",
+    "meaning": "규폐증"
+  },
+  {
+    "id": "term-0933",
+    "english": "Sim's position",
+    "meaning": "심스위"
+  },
+  {
+    "id": "term-0934",
+    "english": "sinus tachycardia",
+    "meaning": "동성빈맥"
+  },
+  {
+    "id": "term-0935",
+    "english": "sinusitis",
+    "meaning": "부비동염"
+  },
+  {
+    "id": "term-0936",
+    "english": "sitting position",
+    "meaning": "좌위"
+  },
+  {
+    "id": "term-0937",
+    "english": "sitz bath",
+    "meaning": "좌욕"
+  },
+  {
+    "id": "term-0938",
+    "english": "skin graft",
+    "meaning": "피부이식"
+  },
+  {
+    "id": "term-0939",
+    "english": "skin test",
+    "meaning": "피부검사"
+  },
+  {
+    "id": "term-0940",
+    "english": "sleep apnea",
+    "meaning": "수면무호흡증"
+  },
+  {
+    "id": "term-0941",
+    "english": "sleep cycle",
+    "meaning": "수면주기"
+  },
+  {
+    "id": "term-0942",
+    "english": "small pox",
+    "meaning": "천연두"
+  },
+  {
+    "id": "term-0943",
+    "english": "snellen chart",
+    "meaning": "시력표"
+  },
+  {
+    "id": "term-0944",
+    "english": "sore throat",
+    "meaning": "인후통, 목감기"
+  },
+  {
+    "id": "term-0945",
+    "english": "source oriented record",
+    "meaning": "정보중심기록"
+  },
+  {
+    "id": "term-0946",
+    "english": "spasm",
+    "meaning": "경축, 강직"
+  },
+  {
+    "id": "term-0947",
+    "english": "sperm",
+    "meaning": "정자(남성생식세포)"
+  },
+  {
+    "id": "term-0948",
+    "english": "sphygmomanometer",
+    "meaning": "혈압계"
+  },
+  {
+    "id": "term-0949",
+    "english": "spinal cord",
+    "meaning": "척수"
+  },
+  {
+    "id": "term-0950",
+    "english": "spinal tapping",
+    "meaning": "요추천자"
+  },
+  {
+    "id": "term-0951",
+    "english": "splint",
+    "meaning": "부목"
+  },
+  {
+    "id": "term-0952",
+    "english": "sprain",
+    "meaning": "염좌"
+  },
+  {
+    "id": "term-0953",
+    "english": "sputum",
+    "meaning": "객담"
+  },
+  {
+    "id": "term-0954",
+    "english": "steatoma",
+    "meaning": "지방종, 피지낭종"
+  },
+  {
+    "id": "term-0955",
+    "english": "stenosis",
+    "meaning": "협착증"
+  },
+  {
+    "id": "term-0956",
+    "english": "sterile gloves",
+    "meaning": "소독∙멸균장갑"
+  },
+  {
+    "id": "term-0957",
+    "english": "sterile towel",
+    "meaning": "멸균포"
+  },
+  {
+    "id": "term-0958",
+    "english": "sterility",
+    "meaning": "불임"
+  },
+  {
+    "id": "term-0959",
+    "english": "sterilization",
+    "meaning": "멸균"
+  },
+  {
+    "id": "term-0960",
+    "english": "stethoscope",
+    "meaning": "청진기"
+  },
+  {
+    "id": "term-0961",
+    "english": "stiffness",
+    "meaning": "강직"
+  },
+  {
+    "id": "term-0962",
+    "english": "stillbirth",
+    "meaning": "사산"
+  },
+  {
+    "id": "term-0963",
+    "english": "stimulus",
+    "meaning": "자극"
+  },
+  {
+    "id": "term-0964",
+    "english": "stomatitis",
+    "meaning": "구내염"
+  },
+  {
+    "id": "term-0965",
+    "english": "strabismus",
+    "meaning": "사시"
+  },
+  {
+    "id": "term-0966",
+    "english": "stress test",
+    "meaning": "운동부하검사"
+  },
+  {
+    "id": "term-0967",
+    "english": "stress urinary incontinence",
+    "meaning": "긴장성(복압성) 요실금"
+  },
+  {
+    "id": "term-0968",
+    "english": "striae gravidarum",
+    "meaning": "임신선"
+  },
+  {
+    "id": "term-0969",
+    "english": "stroke",
+    "meaning": "발작"
+  },
+  {
+    "id": "term-0970",
+    "english": "stupor",
+    "meaning": "혼미"
+  },
+  {
+    "id": "term-0971",
+    "english": "stuttering",
+    "meaning": "말더듬기"
+  },
+  {
+    "id": "term-0972",
+    "english": "subarachnoid space",
+    "meaning": "지주막하강"
+  },
+  {
+    "id": "term-0973",
+    "english": "subcutaneous injection",
+    "meaning": "피하주사"
+  },
+  {
+    "id": "term-0974",
+    "english": "subjective data",
+    "meaning": "주관적 자료"
+  },
+  {
+    "id": "term-0975",
+    "english": "subluxation",
+    "meaning": "부전탈구, 아탈구"
+  },
+  {
+    "id": "term-0976",
+    "english": "suctioning",
+    "meaning": "흡인법"
+  },
+  {
+    "id": "term-0977",
+    "english": "suffocation",
+    "meaning": "질식"
+  },
+  {
+    "id": "term-0978",
+    "english": "superego",
+    "meaning": "초자아"
+  },
+  {
+    "id": "term-0979",
+    "english": "supine position",
+    "meaning": "앙와위"
+  },
+  {
+    "id": "term-0980",
+    "english": "support",
+    "meaning": "지지"
+  },
+  {
+    "id": "term-0981",
+    "english": "suppository",
+    "meaning": "좌약"
+  },
+  {
+    "id": "term-0982",
+    "english": "suppression",
+    "meaning": "억제"
+  },
+  {
+    "id": "term-0983",
+    "english": "surgical asepsis",
+    "meaning": "외과적 무균법"
+  },
+  {
+    "id": "term-0984",
+    "english": "surgical blade",
+    "meaning": "외과용 칼날"
+  },
+  {
+    "id": "term-0985",
+    "english": "susceptibility",
+    "meaning": "감수성"
+  },
+  {
+    "id": "term-0986",
+    "english": "suspiciousness",
+    "meaning": "의심증"
+  },
+  {
+    "id": "term-0987",
+    "english": "suture",
+    "meaning": "봉합"
+  },
+  {
+    "id": "term-0988",
+    "english": "swelling",
+    "meaning": "종창, 팽윤"
+  },
+  {
+    "id": "term-0989",
+    "english": "sympathectomy",
+    "meaning": "교감신경절제술"
+  },
+  {
+    "id": "term-0990",
+    "english": "sympathetic nerve",
+    "meaning": "교감신경"
+  },
+  {
+    "id": "term-0991",
+    "english": "symphysis pubis",
+    "meaning": "치골결합"
+  },
+  {
+    "id": "term-0992",
+    "english": "syncope",
+    "meaning": "실신, 기절"
+  },
+  {
+    "id": "term-0993",
+    "english": "synovial fluid",
+    "meaning": "활액"
+  },
+  {
+    "id": "term-0994",
+    "english": "syphilis",
+    "meaning": "매독"
+  },
+  {
+    "id": "term-0995",
+    "english": "systemic lupus erythematosus",
+    "meaning": "전신성홍반성낭창"
+  },
+  {
+    "id": "term-0996",
+    "english": "systolic hypertension",
+    "meaning": "수축기 고혈압"
+  },
+  {
+    "id": "term-0997",
+    "english": "systolic pressure",
+    "meaning": "수축기혈압"
+  },
+  {
+    "id": "term-0998",
+    "english": "tachycardia",
+    "meaning": "빈맥"
+  },
+  {
+    "id": "term-0999",
+    "english": "tachypnea",
+    "meaning": "빈호흡"
+  },
+  {
+    "id": "term-1000",
+    "english": "tactile",
+    "meaning": "촉각"
+  },
+  {
+    "id": "term-1001",
+    "english": "tartar",
+    "meaning": "치석"
+  },
+  {
+    "id": "term-1002",
+    "english": "temporal lobe",
+    "meaning": "측두엽"
+  },
+  {
+    "id": "term-1003",
+    "english": "tenderness",
+    "meaning": "압통"
+  },
+  {
+    "id": "term-1004",
+    "english": "teratoma",
+    "meaning": "기형종"
+  },
+  {
+    "id": "term-1005",
+    "english": "terbutaline",
+    "meaning": "자궁근 이완제"
+  },
+  {
+    "id": "term-1006",
+    "english": "testis",
+    "meaning": "고환"
+  },
+  {
+    "id": "term-1007",
+    "english": "testosterone",
+    "meaning": "테스토스테론(남성호르몬)"
+  },
+  {
+    "id": "term-1008",
+    "english": "tetanus",
+    "meaning": "파상풍"
+  },
+  {
+    "id": "term-1009",
+    "english": "tetany",
+    "meaning": "테타니"
+  },
+  {
+    "id": "term-1010",
+    "english": "thalamus",
+    "meaning": "시상"
+  },
+  {
+    "id": "term-1011",
+    "english": "thermometer",
+    "meaning": "체온계"
+  },
+  {
+    "id": "term-1012",
+    "english": "thoracentesis",
+    "meaning": "흉곽천자"
+  },
+  {
+    "id": "term-1013",
+    "english": "thoracoscopy",
+    "meaning": "흉강경 검사"
+  },
+  {
+    "id": "term-1014",
+    "english": "thoracotomy",
+    "meaning": "개흉술"
+  },
+  {
+    "id": "term-1015",
+    "english": "thrombocytopenia",
+    "meaning": "혈소판 감소증"
+  },
+  {
+    "id": "term-1016",
+    "english": "thrombocytosis",
+    "meaning": "혈소판 증가증"
+  },
+  {
+    "id": "term-1017",
+    "english": "thrombolytics",
+    "meaning": "혈전용해제"
+  },
+  {
+    "id": "term-1018",
+    "english": "thrombophlebitis",
+    "meaning": "혈전성 정맥염"
+  },
+  {
+    "id": "term-1019",
+    "english": "thrush",
+    "meaning": "아구창"
+  },
+  {
+    "id": "term-1020",
+    "english": "thumb sucking",
+    "meaning": "엄지빨기"
+  },
+  {
+    "id": "term-1021",
+    "english": "thymus",
+    "meaning": "흉선"
+  },
+  {
+    "id": "term-1022",
+    "english": "thyroidectomy",
+    "meaning": "갑상샘 절제술"
+  },
+  {
+    "id": "term-1023",
+    "english": "thyroiditis",
+    "meaning": "갑상샘염"
+  },
+  {
+    "id": "term-1024",
+    "english": "tic disorder",
+    "meaning": "틱장애"
+  },
+  {
+    "id": "term-1025",
+    "english": "tinea",
+    "meaning": "백선, 윤선"
+  },
+  {
+    "id": "term-1026",
+    "english": "tinnitus",
+    "meaning": "이명"
+  },
+  {
+    "id": "term-1027",
+    "english": "toilet training",
+    "meaning": "배변훈련"
+  },
+  {
+    "id": "term-1028",
+    "english": "tolerance",
+    "meaning": "내성"
+  },
+  {
+    "id": "term-1029",
+    "english": "tongue depressor",
+    "meaning": "설압자"
+  },
+  {
+    "id": "term-1030",
+    "english": "tongue pressure",
+    "meaning": "압설자"
+  },
+  {
+    "id": "term-1031",
+    "english": "tonsillectomy",
+    "meaning": "편도절제술"
+  },
+  {
+    "id": "term-1032",
+    "english": "tonsillitis",
+    "meaning": "편도(선)염"
+  },
+  {
+    "id": "term-1033",
+    "english": "tonus",
+    "meaning": "긴장도"
+  },
+  {
+    "id": "term-1034",
+    "english": "tophus",
+    "meaning": "통풍결절"
+  },
+  {
+    "id": "term-1035",
+    "english": "torsion",
+    "meaning": "염전"
+  },
+  {
+    "id": "term-1036",
+    "english": "toxemia",
+    "meaning": "임신중독증"
+  },
+  {
+    "id": "term-1037",
+    "english": "tracheostomy tube",
+    "meaning": "기관절개관"
+  },
+  {
+    "id": "term-1038",
+    "english": "tracheotomy",
+    "meaning": "기관절개술"
+  },
+  {
+    "id": "term-1039",
+    "english": "traction",
+    "meaning": "견인"
+  },
+  {
+    "id": "term-1040",
+    "english": "transitional stool",
+    "meaning": "이행변"
+  },
+  {
+    "id": "term-1041",
+    "english": "trial of labor",
+    "meaning": "분만시도"
+  },
+  {
+    "id": "term-1042",
+    "english": "trichomonas vaginitis",
+    "meaning": "트리코모나스성 질염"
+  },
+  {
+    "id": "term-1043",
+    "english": "trimester",
+    "meaning": "기(임신기간을 나누는 단위)"
+  },
+  {
+    "id": "term-1044",
+    "english": "tub bath",
+    "meaning": "통목욕"
+  },
+  {
+    "id": "term-1045",
+    "english": "tumor",
+    "meaning": "종양"
+  },
+  {
+    "id": "term-1046",
+    "english": "Turner syndrome",
+    "meaning": "터너 증후군"
+  },
+  {
+    "id": "term-1047",
+    "english": "ulcer",
+    "meaning": "궤양"
+  },
+  {
+    "id": "term-1048",
+    "english": "ulcerative colitis",
+    "meaning": "궤양성 대장염"
+  },
+  {
+    "id": "term-1049",
+    "english": "umbilical cord",
+    "meaning": "제대"
+  },
+  {
+    "id": "term-1050",
+    "english": "umbilical hernia",
+    "meaning": "제대탈출"
+  },
+  {
+    "id": "term-1051",
+    "english": "unconsciousness",
+    "meaning": "무의식"
+  },
+  {
+    "id": "term-1052",
+    "english": "unguentum",
+    "meaning": "연고"
+  },
+  {
+    "id": "term-1053",
+    "english": "unsaturated fatty acid",
+    "meaning": "불포화 지방산"
+  },
+  {
+    "id": "term-1054",
+    "english": "uremia",
+    "meaning": "요독증"
+  },
+  {
+    "id": "term-1055",
+    "english": "urethritis",
+    "meaning": "요도염"
+  },
+  {
+    "id": "term-1056",
+    "english": "urethrography",
+    "meaning": "요도 촬영술"
+  },
+  {
+    "id": "term-1057",
+    "english": "urinary diversion",
+    "meaning": "요로전환"
+  },
+  {
+    "id": "term-1058",
+    "english": "urinary incontinence",
+    "meaning": "요실금"
+  },
+  {
+    "id": "term-1059",
+    "english": "urinary retention",
+    "meaning": "요정체"
+  },
+  {
+    "id": "term-1060",
+    "english": "urticaria",
+    "meaning": "두드러기, 담마진"
+  },
+  {
+    "id": "term-1061",
+    "english": "uterine atony",
+    "meaning": "이완성 자궁출혈"
+  },
+  {
+    "id": "term-1062",
+    "english": "uterine cavity",
+    "meaning": "자궁강"
+  },
+  {
+    "id": "term-1063",
+    "english": "uterine myoma",
+    "meaning": "자궁근종"
+  },
+  {
+    "id": "term-1064",
+    "english": "uterine orifice",
+    "meaning": "자궁구"
+  },
+  {
+    "id": "term-1065",
+    "english": "uterus",
+    "meaning": "자궁"
+  },
+  {
+    "id": "term-1066",
+    "english": "vagina",
+    "meaning": "질"
+  },
+  {
+    "id": "term-1067",
+    "english": "vaginal douch",
+    "meaning": "질세척"
+  },
+  {
+    "id": "term-1068",
+    "english": "vaginal speculum",
+    "meaning": "질경"
+  },
+  {
+    "id": "term-1069",
+    "english": "vaginitis",
+    "meaning": "질염"
+  },
+  {
+    "id": "term-1070",
+    "english": "valvular heart disease",
+    "meaning": "판막성 심장질환"
+  },
+  {
+    "id": "term-1071",
+    "english": "valvuloplasty",
+    "meaning": "판막형성술"
+  },
+  {
+    "id": "term-1072",
+    "english": "varicella zoster",
+    "meaning": "대상포진"
+  },
+  {
+    "id": "term-1073",
+    "english": "varices, varix",
+    "meaning": "정맥류"
+  },
+  {
+    "id": "term-1074",
+    "english": "vasoconstriction",
+    "meaning": "혈관수축"
+  },
+  {
+    "id": "term-1075",
+    "english": "vasodilatation",
+    "meaning": "혈관확장"
+  },
+  {
+    "id": "term-1076",
+    "english": "vasodilatator",
+    "meaning": "혈관확장제"
+  },
+  {
+    "id": "term-1077",
+    "english": "vein stripping",
+    "meaning": "정맥류 제거술"
+  },
+  {
+    "id": "term-1078",
+    "english": "ventilation",
+    "meaning": "환기"
+  },
+  {
+    "id": "term-1079",
+    "english": "ventricle",
+    "meaning": "뇌실"
+  },
+  {
+    "id": "term-1080",
+    "english": "ventricular hypertrophy",
+    "meaning": "심실비대"
+  },
+  {
+    "id": "term-1081",
+    "english": "ventriculography",
+    "meaning": "뇌실조영술"
+  },
+  {
+    "id": "term-1082",
+    "english": "vernix caseosa",
+    "meaning": "태지"
+  },
+  {
+    "id": "term-1083",
+    "english": "vertebral canal",
+    "meaning": "척주관"
+  },
+  {
+    "id": "term-1084",
+    "english": "vertex",
+    "meaning": "두정"
+  },
+  {
+    "id": "term-1085",
+    "english": "vertigo",
+    "meaning": "현훈, 어지러움"
+  },
+  {
+    "id": "term-1086",
+    "english": "vesicle",
+    "meaning": "수포"
+  },
+  {
+    "id": "term-1087",
+    "english": "virulence",
+    "meaning": "독성"
+  },
+  {
+    "id": "term-1088",
+    "english": "vital sign",
+    "meaning": "활력징후"
+  },
+  {
+    "id": "term-1089",
+    "english": "vitiligo",
+    "meaning": "백반, 백진풍"
+  },
+  {
+    "id": "term-1090",
+    "english": "vomiting",
+    "meaning": "구토"
+  },
+  {
+    "id": "term-1091",
+    "english": "voyeurism",
+    "meaning": "관음증"
+  },
+  {
+    "id": "term-1092",
+    "english": "vulva",
+    "meaning": "외음부(여성의 외부생식기)"
+  },
+  {
+    "id": "term-1093",
+    "english": "vulvectomy",
+    "meaning": "외음절제술"
+  },
+  {
+    "id": "term-1094",
+    "english": "weakness",
+    "meaning": "허약"
+  },
+  {
+    "id": "term-1095",
+    "english": "weaning",
+    "meaning": "이유, 젖떼기"
+  },
+  {
+    "id": "term-1096",
+    "english": "Wechsler Adult Intelligence Scale(KWIS)",
+    "meaning": "지능검사"
+  },
+  {
+    "id": "term-1097",
+    "english": "wet dressing",
+    "meaning": "습포"
+  },
+  {
+    "id": "term-1098",
+    "english": "wheezing sound",
+    "meaning": "천식음"
+  },
+  {
+    "id": "term-1099",
+    "english": "whooping cough",
+    "meaning": "백일해"
+  },
+  {
+    "id": "term-1100",
+    "english": "Wilms' tumor",
+    "meaning": "빌름스 종양"
+  },
+  {
+    "id": "term-1101",
+    "english": "withdrawal or abstinence syndrome",
+    "meaning": "금단증상"
+  },
+  {
+    "id": "term-1102",
+    "english": "xanthosis",
+    "meaning": "황색증"
+  },
+  {
+    "id": "term-1103",
+    "english": "xerosis",
+    "meaning": "건조증, 마름증"
+  },
+  {
+    "id": "term-1104",
+    "english": "xerostomia",
+    "meaning": "구내건조증"
+  },
+  {
+    "id": "term-1105",
+    "english": "yawn reflex",
+    "meaning": "하품반사"
+  },
+  {
+    "id": "term-1106",
+    "english": "yeast",
+    "meaning": "효모"
+  },
+  {
+    "id": "term-1107",
+    "english": "yersiniosis",
+    "meaning": "예르시니아증"
+  },
+  {
+    "id": "term-1108",
+    "english": "zoonosis",
+    "meaning": "인수공통감염증, 인수전염병"
+  },
+  {
+    "id": "term-1109",
+    "english": "zygote",
+    "meaning": "접합체"
+  },
+  {
+    "id": "term-1110",
+    "english": "zymolysis",
+    "meaning": "효소 분해, 발효"
+  }
+]

@@ -110,7 +110,7 @@ export default function FlashcardPage() {
       <button className="card" onClick={() => setFlipped((f) => !f)}>
         {flipped ? (
           <span className="card-back">
-            {term.korean} — {term.meaning}
+            {[term.korean, term.meaning].filter(Boolean).join(" — ")}
           </span>
         ) : (
           <span className="card-front">{term.english}</span>
