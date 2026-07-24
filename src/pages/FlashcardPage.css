@@ -1,0 +1,42 @@
+/* 플래시카드 화면 추가 스타일 (팀원 B).
+   카드 자체 스타일은 공통 index.css의 .card 를 그대로 쓰고,
+   여기서는 이 화면에서 새로 추가한 도구 버튼만 정의한다. */
+
+.fc-toolbar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.fc-know {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.fc-btn {
+  padding: 8px 14px;
+  font-size: 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  cursor: pointer;
+}
+.fc-btn:hover {
+  border-color: var(--accent);
+}
+.fc-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.fc-btn.know:hover {
+  border-color: #16a34a;
+  color: #166534;
+}
+.fc-btn.dont:hover {
+  border-color: #dc2626;
+  color: #991b1b;
+}
