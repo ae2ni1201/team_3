@@ -49,7 +49,8 @@ export default function WrongNotePage() {
         <ul className="term-list">
           {items.map((t) => (
             <li key={t.id} className="term-item">
-              <strong>{t.english}</strong> · {t.korean}
+              <strong>{t.english}</strong>
+              {t.korean ? ` · ${t.korean}` : ""}
               <p>{t.meaning}</p>
               <button className="wn-done" onClick={() => removeOne(t.id)}>
                 외웠어요 ✅
