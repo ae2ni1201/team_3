@@ -5,7 +5,10 @@ import { getUnknownIds, markKnown, markUnknown } from "../services/reviewStore";
 import "./FlashcardPage.css";
 
 // 플래시카드 화면 (팀원 B · 기능 담당 · F-4/F-5/F-6).
-// 카드 뒤집기(F-4) + 섞기(F-5) + 안다/모른다(F-6, 브라우저 저장).
+// 전체 용어에서 랜덤 20개를 뽑아 카드로 넘기며 외운다.
+// 뒤집기(F-4) + 새 20개 뽑기/섞기(F-5) + 안다/모른다(F-6, 브라우저 저장).
+
+const SESSION_SIZE = 20; // 한 번에 학습할 카드 수
 
 // 배열을 무작위로 섞는다 (Fisher–Yates).
 function shuffle<T>(arr: T[]): T[] {
@@ -17,9 +20,14 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+// 전체에서 무작위 n개를 뽑는다.
+function pickRandom(all: MedicalTerm[], n: number): MedicalTerm[] {
+  return shuffle(all).slice(0, Math.min(n, all.length));
+}
+
 export default function FlashcardPage() {
   const [terms, setTerms] = useState<MedicalTerm[]>([]);
-  const [order, setOrder] = useState<MedicalTerm[]>([]);
+  const [session, setSession] = useState<MedicalTerm[]>([]); // 랜덤 20개
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -30,18 +38,18 @@ export default function FlashcardPage() {
     fetchTerms()
       .then((data) => {
         setTerms(data);
-        setOrder(data);
+        setSession(pickRandom(data, SESSION_SIZE));
       })
       .finally(() => setLoading(false));
   }, []);
 
-  // 복습 모드에 따라 보여줄 카드 목록을 정한다.
+  // 복습 모드면 전체에서 '모른' 카드, 아니면 랜덤 20개 세션.
   const deck = useMemo(
-    () => (onlyUnknown ? order.filter((t) => unknownIds.has(t.id)) : order),
-    [order, onlyUnknown, unknownIds]
+    () => (onlyUnknown ? terms.filter((t) => unknownIds.has(t.id)) : session),
+    [terms, session, onlyUnknown, unknownIds]
   );
 
-  // 카드 목록이 바뀌면 처음부터.
+  // 카드 묶음이 바뀌면 처음부터.
   useEffect(() => {
     setIndex(0);
     setFlipped(false);
@@ -58,7 +66,7 @@ export default function FlashcardPage() {
         </p>
         {onlyUnknown && (
           <button className="fc-btn" onClick={() => setOnlyUnknown(false)}>
-            전체 카드 보기
+            랜덤 카드 보기
           </button>
         )}
       </section>
@@ -68,21 +76,18 @@ export default function FlashcardPage() {
 
   const go = (delta: number) => {
     setFlipped(false);
-    setIndex((i) => (i + delta + deck.length) % deck.length);
+    setIndex((i) => (i + delta + deck.length) % deck.length); // 끝나면 처음으로 순환
   };
 
-  const doShuffle = () => {
-    setOrder((prev) => shuffle(prev));
+  const newSession = () => {
+    setSession(pickRandom(terms, SESSION_SIZE));
     setIndex(0);
     setFlipped(false);
   };
 
   const setKnow = (known: boolean) => {
-    if (known) {
-      markKnown(term.id);
-    } else {
-      markUnknown(term.id);
-    }
+    if (known) markKnown(term.id);
+    else markUnknown(term.id);
     setUnknownIds(getUnknownIds());
     go(1); // 표시 후 다음 카드로
   };
@@ -94,7 +99,7 @@ export default function FlashcardPage() {
       <h2>플래시카드</h2>
 
       <div className="fc-toolbar">
-        <button className="fc-btn" onClick={doShuffle}>🔀 섞기</button>
+        <button className="fc-btn" onClick={newSession}>🔀 새 카드 20개</button>
         <button
           className={"fc-btn" + (onlyUnknown ? " active" : "")}
           onClick={() => setOnlyUnknown((v) => !v)}
@@ -105,6 +110,7 @@ export default function FlashcardPage() {
 
       <p className="progress">
         {index + 1} / {deck.length}
+        {!onlyUnknown && <span className="fc-sub"> · 전체 {terms.length}개 중 랜덤</span>}
       </p>
 
       <button className="card" onClick={() => setFlipped((f) => !f)}>

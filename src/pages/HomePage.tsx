@@ -16,8 +16,8 @@ export default function HomePage() {
         </Link>
         <Link className="card-link" to="/search">
           <span className="emoji">🔍</span>
-          <span>검색</span>
-          <small>용어 뜻 찾아보기</small>
+          <span>단어장</span>
+          <small>용어 찾아보고 훑어보기</small>
         </Link>
         <Link className="card-link" to="/quiz">
           <span className="emoji">📝</span>

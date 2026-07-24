@@ -9,6 +9,11 @@
   margin-bottom: 12px;
 }
 
+.fc-sub {
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .fc-know {
   display: flex;
   gap: 10px;

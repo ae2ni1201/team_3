@@ -79,6 +79,11 @@
   margin: 0 0 8px;
   font-size: 15px;
 }
+.quiz-saved {
+  font-size: 12px;
+  font-weight: 500;
+  color: #16a34a;
+}
 .quiz-review ul {
   margin: 0;
   padding-left: 18px;
