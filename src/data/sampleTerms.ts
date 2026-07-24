@@ -1,7 +1,7 @@
 import type { MedicalTerm } from "../types/medicalTerm";
 
-// 공공데이터 API/Supabase 연결 전에도 데모가 돌아가도록 넣어둔 샘플 데이터.
-// 데이터 담당(F-1)이 API를 연결하면 이 파일은 "대체(fallback) 데이터"로만 쓰인다.
+// 내장 기본 용어. 파일을 첨부하기 전에도 앱이 바로 돌아가도록 넣어둔다.
+// 데이터 관리 화면에서 CSV/JSON을 첨부하면 이 목록 대신 첨부한 용어를 쓴다.
 export const sampleTerms: MedicalTerm[] = [
   { id: "term-001", english: "Hypertension", korean: "고혈압", meaning: "혈압이 정상보다 높은 상태.", category: "순환기계", example: "Hypertension increases the risk of stroke." },
   { id: "term-002", english: "Tachycardia", korean: "빈맥", meaning: "심장 박동이 정상보다 빠른 상태.", category: "순환기계" },

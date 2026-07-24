@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { MedicalTerm } from "../types/medicalTerm";
-import { fetchTerms } from "../services/publicDataApi";
+import { fetchTerms } from "../services/termsSource";
 import "./SearchPage.css";
 
 // 검색 화면 (팀원 A · 데이터 담당 · F-2).

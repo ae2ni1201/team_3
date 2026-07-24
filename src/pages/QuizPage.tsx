@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { MedicalTerm } from "../types/medicalTerm";
-import { fetchTerms } from "../services/publicDataApi";
+import { fetchTerms } from "../services/termsSource";
 import "./QuizPage.css";
 
 // 퀴즈 화면 (팀원 B · 기능 담당 · F-7/F-8).
