@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import type { MedicalTerm } from "../types/medicalTerm";
-import { fetchTerms } from "../services/publicDataApi";
+import { fetchTerms } from "../services/termsSource";
 import { getUnknownIds, markKnown, clearAllUnknown } from "../services/reviewStore";
 import "./WrongNotePage.css";
 

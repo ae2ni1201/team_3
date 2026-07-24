@@ -4,8 +4,8 @@
 플래시카드로 외우고, 검색으로 찾고, 퀴즈로 점검한다.
 
 - 스택: **React + Vite + TypeScript + Supabase + Vercel + GitHub**
-- 데이터: 공공데이터 API (없으면 Supabase / 샘플 데이터로 대체)
-- 회원가입·로그인·개인정보 저장 **없음**
+- 데이터: **CSV/JSON 파일 첨부**로 용어 업데이트 (데이터 관리 화면) → 없으면 내장 기본 용어
+- 회원가입·로그인·개인정보 저장 **없음** (첨부한 용어는 브라우저 localStorage에만 저장)
 
 ## 실행 방법
 
@@ -18,7 +18,9 @@ cp .env.example .env.local   # 환경변수 파일 만들기 (값은 팀 리더�
 npm run dev          # 개발 서버 실행 → http://localhost:5173
 ```
 
-환경변수(`.env.local`)를 채우지 않아도 **샘플 용어 15개로 데모가 돌아갑니다.**
+환경변수 없이도 **내장 기본 용어 15개로 데모가 돌아갑니다.**
+용어를 바꾸려면 앱의 **데이터** 화면에서 CSV/JSON 파일을 첨부하세요.
+(양식 예시: [docs/terms-template.csv](docs/terms-template.csv) — 헤더: `english,korean,meaning,category,example`)
 
 ## 폴더 구조
 

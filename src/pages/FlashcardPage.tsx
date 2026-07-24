@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { MedicalTerm } from "../types/medicalTerm";
-import { fetchTerms } from "../services/publicDataApi";
+import { fetchTerms } from "../services/termsSource";
 import { getUnknownIds, markKnown, markUnknown } from "../services/reviewStore";
 import "./FlashcardPage.css";
 
