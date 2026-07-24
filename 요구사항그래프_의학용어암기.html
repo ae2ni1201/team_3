@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!-- ============================================================================
+  PRD 요구사항 그래프 템플릿 — Claude용 사용 지침
+  ----------------------------------------------------------------------------
+  1) 이 파일을 복사한다.
+  2) 파일 맨 아래, 바로 위에 [교체지점] 마커가 붙은 데이터 블록의 여닫는 태그
+     사이 JSON만 통째로 실제 데이터로 바꾼다. (스키마: SKILL.md "출력 형식")
+     ※ 함정 주의: 이 안내 주석에는 그 블록의 태그 문자를 일부러 넣지 않았다.
+        그래서 파일에서 id 가 graph-data 인 블록은 '딱 한 곳'(실제 데이터)만 나온다.
+        그 한 곳만 교체하면 된다. (예전에는 이 주석에도 같은 태그가 있어,
+        순진하게 첫 매치를 바꾸면 주석에 주입되고 진짜 샘플이 남는 지뢰가 있었다.)
+  3) "요구사항그래프_<별칭>.html" 로 저장한다. (별칭 = 공백 없는 짧은 이름)
+  ----------------------------------------------------------------------------
+  - HTML/CSS/JS 본문은 건드리지 않는다. JSON만 정확히 채우면 트리가 자동 렌더링된다.
+  - 외부 라이브러리/인터넷 불필요(자기완결형). 브라우저로 더블클릭하면 열린다.
+  - 노드를 클릭하면 하위가 접히고 펼쳐진다. 라이트/다크 테마 자동 대응.
+  - 교체 후 반드시 브라우저로 열어(렌더 화면으로) 샘플('우리 반 익명 건의함')이 아니라
+    내 데이터가 뜨는지 확인한다. ※ 이 안내 주석에 적힌 샘플 이름은 교체 후에도 파일에
+    그대로 남는다(정상). 그러니 raw 텍스트 검색이 아니라 '브라우저 렌더 화면'으로 판정할 것.
+============================================================================ -->
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>요구사항 그래프</title>
+<style>
+  :root {
+    --bg: #f5f6f8; --panel: #ffffff; --ink: #1a1d24; --muted: #6b7280;
+    --line: #e3e6eb; --accent: #4f46e5;
+    --r-bar: #4f46e5; --f-bar: #0ea5e9; --s-bar: #94a3b8;
+    --hi: #e11d48; --hi-bg: #fee2e2; --md: #d97706; --md-bg: #fef3c7; --lo: #64748b; --lo-bg: #eef2f6;
+    --chip: #eef2ff; --chip-ink: #4338ca;
+    --shadow: 0 1px 2px rgba(0,0,0,.06), 0 4px 12px rgba(0,0,0,.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --panel: #181b22; --ink: #e6e8ec; --muted: #9aa2ad;
+      --line: #2a2f3a; --accent: #818cf8;
+      --r-bar: #818cf8; --f-bar: #38bdf8; --s-bar: #64748b;
+      --hi: #fb7185; --hi-bg: #4c1d24; --md: #fbbf24; --md-bg: #422f0a; --lo: #94a3b8; --lo-bg: #232833;
+      --chip: #26304d; --chip-ink: #c7d2fe;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 18px rgba(0,0,0,.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif; line-height: 1.55; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 28px 18px 80px; }
+
+  header.top { margin-bottom: 18px; }
+  .eyebrow { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  h1 { margin: 4px 0 6px; font-size: 26px; }
+  .mode-tag { display: inline-block; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px;
+    background: var(--chip); color: var(--chip-ink); vertical-align: middle; margin-left: 8px; }
+  .stats { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; box-shadow: var(--shadow); }
+  .stat b { font-size: 20px; } .stat span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+
+  .controls { display: flex; gap: 8px; margin: 16px 0 10px; }
+  .controls button { font: inherit; font-size: 13px; cursor: pointer; border: 1px solid var(--line);
+    background: var(--panel); color: var(--ink); padding: 6px 12px; border-radius: 8px; }
+  .controls button:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* PRD panel */
+  details.prd { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); margin-bottom: 22px; overflow: hidden; }
+  details.prd > summary { cursor: pointer; padding: 14px 18px; font-weight: 700; font-size: 15px; list-style: none; display: flex; align-items: center; gap: 8px; }
+  details.prd > summary::-webkit-details-marker { display: none; }
+  details.prd > summary::before { content: "▸"; color: var(--muted); transition: transform .15s; }
+  details.prd[open] > summary::before { transform: rotate(90deg); }
+  .prd-grid { padding: 0 18px 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 640px) { .prd-grid { grid-template-columns: 1fr; } }
+  .prd-sec h3 { margin: 8px 0 4px; font-size: 13px; color: var(--accent); }
+  .prd-sec p { margin: 0 0 8px; font-size: 14px; }
+  .prd-sec .field { color: var(--muted); font-size: 12px; }
+  .prd-meta { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; padding-top: 6px; border-top: 1px dashed var(--line); }
+
+  /* Tree */
+  .tree { display: flex; flex-direction: column; gap: 10px; }
+  .node { border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 12px; background: var(--panel); box-shadow: var(--shadow); }
+  .node.R { border-left-color: var(--r-bar); }
+  .node.F { border-left-color: var(--f-bar); }
+  .node.S { border-left-color: var(--s-bar); }
+  .node-head { display: flex; align-items: flex-start; gap: 10px; padding: 12px 14px; cursor: pointer; }
+  .node-head.leaf { cursor: default; }
+  .caret { color: var(--muted); font-size: 12px; margin-top: 3px; width: 12px; flex: none; transition: transform .15s; }
+  .node.collapsed > .node-head .caret { transform: rotate(-90deg); }
+  .caret.hidden { visibility: hidden; }
+  .tag { font-size: 10px; font-weight: 800; letter-spacing: .05em; padding: 2px 6px; border-radius: 6px; margin-top: 2px; flex: none; }
+  .tag.R { background: var(--r-bar); color: #fff; } .tag.F { background: var(--f-bar); color: #fff; } .tag.S { background: var(--s-bar); color: #fff; }
+  .node-title { flex: 1; }
+  .node-title .name { font-weight: 650; font-size: 15px; }
+  .node.S .node-title .name { font-size: 14px; font-weight: 550; }
+  .node-title .desc { color: var(--muted); font-size: 13px; margin-top: 3px; }
+  .imp { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 999px; margin-top: 2px; flex: none; }
+  .imp.high { background: var(--hi-bg); color: var(--hi); } .imp.medium { background: var(--md-bg); color: var(--md); } .imp.low { background: var(--lo-bg); color: var(--lo); }
+  .children { padding: 0 14px 12px 30px; display: flex; flex-direction: column; gap: 8px; }
+  .node.collapsed > .children { display: none; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+  .chip { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--chip-ink); }
+  .ac { margin: 8px 0 0; padding: 8px 10px; background: var(--lo-bg); border-radius: 8px; }
+  .ac .ac-t { font-size: 11px; font-weight: 700; color: var(--muted); margin-bottom: 4px; }
+  .ac ul { margin: 0; padding-left: 16px; } .ac li { font-size: 12px; margin: 2px 0; }
+  footer { margin-top: 30px; color: var(--muted); font-size: 12px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">PRD · 요구사항 그래프</div>
+    <h1 id="proj">프로젝트</h1>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <details class="prd" open>
+    <summary>📄 PRD 요약 (제품 요구사항 문서)</summary>
+    <div class="prd-grid" id="prd"></div>
+  </details>
+
+  <div class="controls">
+    <button onclick="setAll(false)">전체 펼치기</button>
+    <button onclick="setAll(true)">전체 접기</button>
+  </div>
+  <div class="tree" id="tree"></div>
+
+  <footer>노드를 클릭하면 하위 항목이 접히고 펼쳐집니다 · prd-graph 스킬로 생성</footer>
+</div>
+
+<!-- [교체지점] 아래 블록의 JSON만 통째로 교체하세요. 이 블록은 파일에 하나뿐입니다. -->
+<script id="graph-data" type="application/json">
+{
+  "project": "의학용어 단어암기 (메디보카)",
+  "mode": "simple",
+  "prd": {
+    "subject": "의료 관련 학과 학생이 공공데이터 의학용어를 플래시카드·퀴즈로 외우는 로그인 없는 학습 웹",
+    "goal": "낯설고 양 많은 의학용어를 카드 한 장 단위로 쪼개 '넘기고 → 확인하고 → 다시 보기'로 짧은 시간에 반복 학습하게 한다.",
+    "background": "의학용어는 영문·한글이 섞여 있고 암기량이 많아 교재만으로는 반복이 지루하다. 웹이면 쉬는 시간이나 이동 중에도 짧게 볼 수 있다.",
+    "userProblem": "용어가 많고 헷갈리는데 종이 단어장은 반복·자가진단이 번거롭다.",
+    "solution": "공공데이터에서 받은 용어를 플래시카드로 넘겨 외우고, 검색으로 바로 찾고, 퀴즈로 스스로 점검한다.",
+    "differentiation": "종이 단어장과 달리 검색으로 원하는 용어를 즉시 찾고, 4지선다 퀴즈로 실력을 바로 확인한다. 회원가입이 필요 없다.",
+    "targetUser": "간호·응급구조·물리치료·임상병리 등 의료 관련 학과 1~2학년 학생. 스마트폰·노트북에 익숙하고 짧게 보는 학습을 선호한다.",
+    "scenario": "한 학생이 접속해 '순환기계' 주제로 플래시카드 30장을 넘겨 보고, 헷갈린 용어는 검색으로 다시 찾은 뒤, 퀴즈 10문제로 오늘 외운 내용을 점검하고 나간다.",
+    "kpi": "한 세션에서 플래시카드 20장 이상 넘겨 보거나 퀴즈 1회를 끝까지 완료.",
+    "risk": "바로 쓸 수 있는 '의학용어' 공공 API가 없거나 응답 형식이 다를 수 있다 — 용어 목록을 CSV로 만들어 Supabase에 넣어 대체.",
+    "category": "education",
+    "roles": ["학생"],
+    "devices": ["모바일 웹", "PC 웹"]
+  },
+  "requirements": [
+    {
+      "id": "R-1", "name": "용어 데이터 확보·조회", "importance": "high",
+      "description": "공공데이터 API(또는 Supabase에 넣은 용어 목록)에서 의학용어를 불러와 화면에 보여주는 능력 영역. 데이터 확보·검색·상세 보기를 다룬다. 개인정보는 다루지 않는다.",
+      "acceptanceCriteria": ["앱을 열면 용어 목록이 뜬다", "용어를 검색해 원하는 항목을 찾을 수 있다"],
+      "features": [
+        {
+          "id": "F-1", "name": "공공데이터 API로 용어 불러오기", "importance": "high",
+          "description": "공공데이터 API를 호출해 의학용어(영문·한글·뜻)를 받아 화면에 목록으로 보여준다. API 연결이 안 되면 미리 넣어둔 샘플/Supabase 데이터로 대체한다. 응답 파싱은 services 폴더에 모은다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": [
+            { "id": "S-1", "name": "로딩·오류 처리", "importance": "medium",
+              "description": "데이터를 받는 동안 로딩 표시를, 실패하면 '데이터를 불러오지 못했어요' 안내와 재시도 버튼을 보여준다.", "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"] }
+          ]
+        },
+        {
+          "id": "F-2", "name": "용어 검색", "importance": "high",
+          "description": "검색창에 영문 또는 한글을 입력하면 이름·뜻에 일치하는 용어만 걸러 보여준다. 대소문자 구분 없이 부분 일치로 찾는다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": [
+            { "id": "S-2", "name": "결과 없음 안내", "importance": "low",
+              "description": "일치하는 용어가 없으면 '검색 결과가 없어요' 문구를 보여준다.", "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"] }
+          ]
+        },
+        {
+          "id": "F-3", "name": "용어 상세 보기", "importance": "medium",
+          "description": "목록에서 용어를 누르면 영문·한글·뜻·예시를 한 화면에 자세히 보여준다. 발음·분류 같은 부가 정보는 데이터가 있을 때만 표시한다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": []
+        }
+      ]
+    },
+    {
+      "id": "R-2", "name": "플래시카드 학습", "importance": "high",
+      "description": "용어를 카드로 넘기며 외우는 핵심 학습 영역. 앞면 용어 / 뒷면 뜻을 뒤집어 보고, 섞기와 진도 넘기기를 다룬다. 이 서비스의 코어다.",
+      "acceptanceCriteria": ["카드를 누르면 앞(용어)과 뒤(뜻)가 뒤집힌다", "다음 카드로 넘길 수 있다"],
+      "features": [
+        {
+          "id": "F-4", "name": "카드 뒤집기 (앞:용어 / 뒤:뜻)", "importance": "high",
+          "description": "카드를 누르면 앞면(영문 용어)과 뒷면(한글 뜻)이 뒤집힌다. 한 번에 한 장만 보여줘 집중하게 한다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": [
+            { "id": "S-3", "name": "뒤집기 애니메이션", "importance": "low",
+              "description": "카드가 부드럽게 돌아가는 효과로 앞뒤 전환을 보여준다. 효과가 없어도 뜻은 정상 표시된다.", "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"] }
+          ]
+        },
+        {
+          "id": "F-5", "name": "카드 섞기·이전/다음", "importance": "medium",
+          "description": "카드 순서를 무작위로 섞고, 이전·다음 버튼으로 넘긴다. 현재 몇 번째인지(예: 7/30) 진도를 함께 보여준다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": []
+        },
+        {
+          "id": "F-6", "name": "안다 / 모른다 표시", "importance": "medium",
+          "description": "카드마다 '안다'·'모른다'를 눌러 표시한다. '모른다'로 표시한 용어는 뒤에서 오답노트로 모을 수 있다(R-4와 연결). 표시는 브라우저에만 저장한다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": []
+        }
+      ]
+    },
+    {
+      "id": "R-3", "name": "퀴즈", "importance": "medium",
+      "description": "외운 용어를 4지선다 문제로 점검하는 영역. 문제 자동 생성과 채점·결과 요약을 다룬다. 랭킹·타이머 같은 확장은 포함하지 않는다.",
+      "acceptanceCriteria": ["용어로 4지선다 문제가 만들어진다", "다 풀면 점수와 틀린 문제를 보여준다"],
+      "features": [
+        {
+          "id": "F-7", "name": "4지선다 문제 자동 생성", "importance": "medium",
+          "description": "용어 목록에서 정답 1개와 오답 3개를 뽑아 '이 용어의 뜻은?' 형식의 4지선다 문제를 만든다. 한 회에 10문제를 낸다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": [
+            { "id": "S-4", "name": "보기 중복 방지", "importance": "low",
+              "description": "한 문제의 보기 4개는 서로 다른 뜻으로만 구성한다.", "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"] }
+          ]
+        },
+        {
+          "id": "F-8", "name": "채점·결과 요약", "importance": "medium",
+          "description": "제출하면 맞은 개수와 점수를 보여주고, 틀린 문제의 정답을 다시 보여준다. '다시 풀기'로 새 문제를 낼 수 있다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": []
+        }
+      ]
+    },
+    {
+      "id": "R-4", "name": "나만의 복습 (즐겨찾기·오답노트)", "importance": "low",
+      "description": "어려운 용어만 따로 모아 반복 학습하는 영역. 로그인이 없으므로 개인정보 없이 브라우저(localStorage)에만 저장한다. 계정 동기화는 하지 않는다.",
+      "acceptanceCriteria": ["별표한 용어를 즐겨찾기에서 다시 볼 수 있다", "틀린 용어가 오답노트에 모인다"],
+      "features": [
+        {
+          "id": "F-9", "name": "즐겨찾기", "importance": "low",
+          "description": "용어에 별표를 눌러 즐겨찾기에 담고, 즐겨찾기만 모아 카드/목록으로 다시 본다. 브라우저에만 저장한다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": []
+        },
+        {
+          "id": "F-10", "name": "오답노트 자동 수집", "importance": "low",
+          "description": "플래시카드에서 '모른다'로 표시했거나 퀴즈에서 틀린 용어를 자동으로 오답노트에 모아 준다. 다 외우면 목록에서 뺄 수 있다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": []
+        }
+      ]
+    },
+    {
+      "id": "R-5", "name": "공통 화면·반응형", "importance": "medium",
+      "description": "여러 화면이 공유하는 껍데기 영역. 헤더·이동 메뉴와 모바일/PC 반응형을 다룬다. 완료 기준의 '모바일·PC 정상 표시'를 담당한다.",
+      "acceptanceCriteria": ["헤더 메뉴로 학습·검색·퀴즈 화면을 오갈 수 있다", "모바일과 PC 둘 다 화면이 깨지지 않는다"],
+      "features": [
+        {
+          "id": "F-11", "name": "헤더·이동 메뉴", "importance": "medium",
+          "description": "상단에 서비스 이름과 홈·검색·퀴즈로 가는 메뉴를 둔다. 어느 화면에서도 같은 헤더로 이동할 수 있다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": []
+        },
+        {
+          "id": "F-12", "name": "모바일·PC 반응형", "importance": "medium",
+          "description": "화면 너비에 따라 카드·목록 배치가 바뀌어 모바일과 PC 모두 보기 좋게 한다. 버튼이 잘리거나 겹치지 않게 한다.",
+          "roles": ["학생"], "devices": ["모바일 웹", "PC 웹"], "specs": []
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<script>
+  const data = JSON.parse(document.getElementById("graph-data").textContent);
+  const MODE = { simple: "간단 모드", detail: "상세 모드", "": "" };
+
+  document.title = "요구사항 그래프 · " + (data.project || "");
+  const modeLabel = MODE[data.mode] || "";
+  document.getElementById("proj").innerHTML =
+    (data.project || "프로젝트") + (modeLabel ? ' <span class="mode-tag">' + modeLabel + "</span>" : "");
+
+  // ---- stats ----
+  let rC = 0, fC = 0, sC = 0;
+  (data.requirements || []).forEach(r => { rC++; (r.features || []).forEach(f => { fC++; sC += (f.specs || []).length; }); });
+  document.getElementById("stats").innerHTML =
+    stat(rC, "요구사항") + stat(fC, "기능") + stat(sC, "스펙");
+  function stat(n, l) { return '<div class="stat"><b>' + n + "</b><span>" + l + "</span></div>"; }
+
+  // ---- PRD ----
+  const p = data.prd || {};
+  const sec = (title, rows) => {
+    const body = rows.filter(r => r[1]).map(r => '<div class="field">' + r[0] + "</div><p>" + esc(r[1]) + "</p>").join("");
+    return body ? '<div class="prd-sec"><h3>' + title + "</h3>" + body + "</div>" : "";
+  };
+  let prdHtml =
+    sec("① 개요", [["한 줄 정의", p.subject], ["목표", p.goal], ["배경", p.background]]) +
+    sec("② 핵심가치", [["사용자 문제", p.userProblem], ["해결 방안", p.solution], ["차별점", p.differentiation]]) +
+    sec("③ 타겟·시나리오", [["타겟 사용자", p.targetUser], ["시나리오", p.scenario]]) +
+    sec("④ 성공지표", [["핵심 지표(KPI)", p.kpi], ["리스크", p.risk]]);
+  const metaChips = []
+    .concat(p.category ? ['<span class="chip">📂 ' + esc(p.category) + "</span>"] : [])
+    .concat((p.roles || []).map(r => '<span class="chip">👤 ' + esc(r) + "</span>"))
+    .concat((p.devices || []).map(d => '<span class="chip">🖥 ' + esc(d) + "</span>"));
+  if (metaChips.length) prdHtml += '<div class="prd-meta">' + metaChips.join("") + "</div>";
+  document.getElementById("prd").innerHTML = prdHtml;
+
+  // ---- Tree ----
+  document.getElementById("tree").innerHTML = (data.requirements || []).map(r => reqNode(r)).join("");
+
+  function reqNode(r) {
+    const kids = (r.features || []).map(f => featNode(f)).join("");
+    let acc = "";
+    if (r.acceptanceCriteria && r.acceptanceCriteria.length) {
+      acc = '<div class="ac"><div class="ac-t">✔ 수락기준</div><ul>' +
+        r.acceptanceCriteria.map(a => "<li>" + esc(a) + "</li>").join("") + "</ul></div>";
+    }
+    return nodeShell("R", r, acc, kids, kids !== "");
+  }
+  function featNode(f) {
+    const kids = (f.specs || []).map(s => nodeShell("S", s, chips(s), "", false)).join("");
+    return nodeShell("F", f, chips(f), kids, kids !== "");
+  }
+  function chips(x) {
+    const c = [].concat((x.roles || []).map(r => '<span class="chip">👤 ' + esc(r) + "</span>"))
+                .concat((x.devices || []).map(d => '<span class="chip">🖥 ' + esc(d) + "</span>"));
+    return c.length ? '<div class="chips">' + c.join("") + "</div>" : "";
+  }
+  function nodeShell(kind, item, extra, childrenHtml, hasKids) {
+    const imp = item.importance ? '<span class="imp ' + item.importance + '">' + impLabel(item.importance) + "</span>" : "";
+    const caret = '<span class="caret ' + (hasKids ? "" : "hidden") + '">▾</span>';
+    const head =
+      '<div class="node-head ' + (hasKids ? "" : "leaf") + '" onclick="toggle(this)">' +
+        caret +
+        '<span class="tag ' + kind + '">' + kind + "</span>" +
+        '<div class="node-title"><div class="name">' + esc(item.name || "") + "</div>" +
+          (item.description ? '<div class="desc">' + esc(item.description) + "</div>" : "") +
+          extra +
+        "</div>" + imp +
+      "</div>";
+    const kids = childrenHtml ? '<div class="children">' + childrenHtml + "</div>" : "";
+    return '<div class="node ' + kind + '">' + head + kids + "</div>";
+  }
+  function impLabel(i) { return i === "high" ? "높음" : i === "low" ? "낮음" : "보통"; }
+  function toggle(el) {
+    const node = el.closest(".node");
+    if (node.querySelector(":scope > .children")) node.classList.toggle("collapsed");
+  }
+  function setAll(collapsed) {
+    document.querySelectorAll(".node").forEach(n => {
+      if (n.querySelector(":scope > .children")) n.classList.toggle("collapsed", collapsed);
+    });
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+</script>
+</body>
+</html>
