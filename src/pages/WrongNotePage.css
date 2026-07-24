@@ -1,0 +1,33 @@
+/* 오답노트 화면 전용 스타일 (F-10). */
+
+.wn-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.wn-clear {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  cursor: pointer;
+}
+.wn-clear:hover {
+  border-color: #dc2626;
+  color: #991b1b;
+}
+.wn-done {
+  margin-top: 10px;
+  padding: 6px 12px;
+  font-size: 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  cursor: pointer;
+}
+.wn-done:hover {
+  border-color: #16a34a;
+  color: #166534;
+}
