@@ -5,6 +5,8 @@ import {
   saveTerms,
   resetTerms,
   getSavedTerms,
+  saveTermsToSupabase,
+  isSupabaseReady,
 } from "../services/termsSource";
 import "./DataPage.css";
 
@@ -22,6 +24,7 @@ export default function DataPage() {
   const [fileName, setFileName] = useState("");
   const [error, setError] = useState("");
   const [savedMsg, setSavedMsg] = useState("");
+  const [saving, setSaving] = useState(false);
 
   const handleFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
     setError("");
@@ -51,6 +54,23 @@ export default function DataPage() {
     setPreview(null);
   };
 
+  const applySaveSupabase = async () => {
+    if (!preview) return;
+    setError("");
+    setSavedMsg("");
+    setSaving(true);
+    try {
+      const n = await saveTermsToSupabase(preview);
+      setSavedMsg(`Supabase에 ${n}개 용어를 저장했어요. 이제 팀원 모두가 같은 용어로 학습합니다.`);
+      setPreview(null);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Supabase 저장에 실패했어요.");
+      console.error(err);
+    } finally {
+      setSaving(false);
+    }
+  };
+
   const doReset = () => {
     resetTerms();
     setPreview(null);
@@ -74,13 +94,19 @@ export default function DataPage() {
       <h2>데이터 관리</h2>
       <p className="data-desc">
         의학용어를 <strong>엑셀(.xlsx)·CSV·JSON 파일로 첨부</strong>해 업데이트합니다.
-        파일은 서버로 올라가지 않고 <strong>내 브라우저에만 저장</strong>됩니다.
+        <strong>내 브라우저에만 저장</strong>하거나, Supabase가 연결돼 있으면
+        <strong> 팀 공용으로 저장</strong>할 수 있습니다. (개인정보는 저장하지 않습니다)
       </p>
 
       <div className="data-status">
         {savedCount !== null
           ? `현재 첨부된 용어 ${savedCount}개를 사용 중`
           : "현재 기본 내장 용어를 사용 중"}
+      </div>
+      <div className={"data-status" + (isSupabaseReady ? " ok" : "")}>
+        {isSupabaseReady
+          ? "🟢 Supabase 연결됨 — 팀 공용 저장 사용 가능"
+          : "⚪ Supabase 미설정 — 첨부 용어는 이 브라우저에만 저장"}
       </div>
 
       <ol className="data-guide">
@@ -116,15 +142,25 @@ export default function DataPage() {
           <ul className="term-list">
             {preview.slice(0, 5).map((t) => (
               <li key={t.id} className="term-item">
-                <strong>{t.english}</strong> · {t.korean}
+                <strong>{t.english}</strong>
+                {t.korean ? ` · ${t.korean}` : ""}
                 <p>{t.meaning}</p>
                 {t.category && <span className="badge">{t.category}</span>}
               </li>
             ))}
           </ul>
-          <button className="save-btn" onClick={applySave}>
-            이 용어로 저장하기 ({preview.length}개)
+          <button className="save-btn" onClick={applySave} disabled={saving}>
+            이 브라우저에 저장 ({preview.length}개)
           </button>
+          {isSupabaseReady && (
+            <button
+              className="save-btn supabase"
+              onClick={applySaveSupabase}
+              disabled={saving}
+            >
+              {saving ? "저장 중…" : `Supabase에 저장 · 팀 공유 (${preview.length}개)`}
+            </button>
+          )}
         </div>
       )}
     </section>

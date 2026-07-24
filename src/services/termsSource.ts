@@ -1,20 +1,56 @@
 import type { MedicalTerm } from "../types/medicalTerm";
 import { sampleTerms } from "../data/sampleTerms";
+import { supabase, isSupabaseReady } from "./supabase";
 import * as XLSX from "xlsx";
 
 // 용어 데이터 소스 (팀원 A · 데이터 담당).
 //
-// 공공데이터 오픈 API 대신 "파일 첨부" 방식으로 바꿨다.
-//   - 데이터 관리 화면에서 CSV / JSON / 엑셀(xlsx) 파일을 첨부하면 파싱해서 localStorage 에 저장한다.
-//   - 저장된 용어가 있으면 그걸 쓰고, 없으면 내장 기본 용어(sampleTerms)를 쓴다.
-//   - 서버로 나가지 않으므로 로그인/개인정보 없이 규칙을 지킨다.
+// 용어 조회 우선순위:
+//   1) Supabase 공용 테이블(terms) — 팀이 함께 쓰는 저장소 (설정된 경우)
+//   2) 이 브라우저에 첨부·저장한 용어 (localStorage)
+//   3) 내장 기본 용어(sampleTerms)
+// 용어는 개인정보가 아니므로 Supabase 공용 저장이 팀 규칙에 맞는다(로그인 없음 유지).
+
+export { isSupabaseReady };
 
 const STORAGE_KEY = "medivoca:terms";
+const TERM_COLUMNS = "id, english, korean, meaning, category, example";
 
 // 화면들이 쓰는 용어 조회 함수 (기존 시그니처 유지).
 export async function fetchTerms(): Promise<MedicalTerm[]> {
-  const saved = getSavedTerms();
-  return saved ?? sampleTerms;
+  // 1) Supabase 공용 용어
+  if (supabase) {
+    try {
+      const { data, error } = await supabase.from("terms").select(TERM_COLUMNS);
+      if (error) throw error;
+      if (data && data.length > 0) return data as MedicalTerm[];
+    } catch (err) {
+      console.warn("Supabase 조회 실패, 로컬/기본 데이터로 대체합니다.", err);
+    }
+  }
+  // 2) 이 브라우저에 저장한 용어  3) 내장 기본 용어
+  return getSavedTerms() ?? sampleTerms;
+}
+
+// 용어를 Supabase 공용 테이블에 저장(모두 공유). 저장한 개수를 반환한다.
+export async function saveTermsToSupabase(terms: MedicalTerm[]): Promise<number> {
+  if (!supabase) {
+    throw new Error("Supabase가 설정되지 않았어요. .env.local 의 VITE_SUPABASE_* 값을 확인하세요.");
+  }
+  const chunkSize = 500; // 요청 크기 제한 대비 나눠서 upsert
+  for (let i = 0; i < terms.length; i += chunkSize) {
+    const chunk = terms.slice(i, i + chunkSize).map((t) => ({
+      id: t.id,
+      english: t.english,
+      korean: t.korean ?? null,
+      meaning: t.meaning,
+      category: t.category ?? null,
+      example: t.example ?? null,
+    }));
+    const { error } = await supabase.from("terms").upsert(chunk);
+    if (error) throw error;
+  }
+  return terms.length;
 }
 
 // 저장된(첨부한) 용어 목록. 없으면 null.
