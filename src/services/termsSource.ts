@@ -1,10 +1,11 @@
 import type { MedicalTerm } from "../types/medicalTerm";
 import { sampleTerms } from "../data/sampleTerms";
+import * as XLSX from "xlsx";
 
 // 용어 데이터 소스 (팀원 A · 데이터 담당).
 //
 // 공공데이터 오픈 API 대신 "파일 첨부" 방식으로 바꿨다.
-//   - 데이터 관리 화면에서 CSV/JSON 파일을 첨부하면 파싱해서 localStorage 에 저장한다.
+//   - 데이터 관리 화면에서 CSV / JSON / 엑셀(xlsx) 파일을 첨부하면 파싱해서 localStorage 에 저장한다.
 //   - 저장된 용어가 있으면 그걸 쓰고, 없으면 내장 기본 용어(sampleTerms)를 쓴다.
 //   - 서버로 나가지 않으므로 로그인/개인정보 없이 규칙을 지킨다.
 
@@ -44,6 +45,18 @@ export function isUsingUploaded(): boolean {
 
 // ---- 파일 파싱 ----
 
+// 첨부한 파일을 형식에 맞춰 MedicalTerm[] 로 파싱한다.
+// 지원: .xlsx / .xls (엑셀), .csv, .json
+export async function parseTermsFile(file: File): Promise<MedicalTerm[]> {
+  const name = file.name.toLowerCase();
+  if (name.endsWith(".xlsx") || name.endsWith(".xls")) {
+    const buffer = await file.arrayBuffer();
+    return rowsToTerms(fromExcel(buffer));
+  }
+  const text = await file.text();
+  return parseTermsText(text, file.name);
+}
+
 // 파일 내용(text)을 MedicalTerm[] 로 파싱한다. JSON이면 JSON으로, 아니면 CSV로.
 export function parseTermsText(text: string, fileName = ""): MedicalTerm[] {
   const trimmed = text.trim();
@@ -52,7 +65,11 @@ export function parseTermsText(text: string, fileName = ""): MedicalTerm[] {
     trimmed.startsWith("[") ||
     trimmed.startsWith("{");
   const rows = looksJson ? fromJson(trimmed) : fromCsv(trimmed);
+  return rowsToTerms(rows);
+}
 
+// 원시 행(RawRow)들을 최종 MedicalTerm[] 로 변환한다 (모든 형식 공통).
+function rowsToTerms(rows: RawRow[]): MedicalTerm[] {
   return rows
     .map((r, i) => ({
       id: r.id?.trim() || `term-${i + 1}`,
@@ -75,10 +92,34 @@ interface RawRow {
   example?: string;
 }
 
+// 헤더가 자유로운 객체 목록(엑셀/JSON)을 RawRow 로 정규화한다.
+function normalizeObjects(objs: Record<string, unknown>[]): RawRow[] {
+  return objs.map((obj) => {
+    const row: RawRow = {};
+    for (const [rawKey, value] of Object.entries(obj)) {
+      const key = headerToKey(rawKey);
+      if (key) row[key] = value == null ? "" : String(value);
+    }
+    return row;
+  });
+}
+
 function fromJson(text: string): RawRow[] {
   const data = JSON.parse(text);
   const arr = Array.isArray(data) ? data : data.terms ?? [];
-  return arr as RawRow[];
+  return normalizeObjects(arr as Record<string, unknown>[]);
+}
+
+function fromExcel(buffer: ArrayBuffer): RawRow[] {
+  const wb = XLSX.read(buffer, { type: "array" });
+  const first = wb.SheetNames[0];
+  if (!first) return [];
+  const sheet = wb.Sheets[first];
+  // 첫 줄을 헤더로 보고 객체 배열로 변환 (빈 칸은 "" 로).
+  const objs = XLSX.utils.sheet_to_json<Record<string, unknown>>(sheet, {
+    defval: "",
+  });
+  return normalizeObjects(objs);
 }
 
 // 헤더 이름을 우리 필드로 매핑 (영문/한글 헤더 모두 허용).

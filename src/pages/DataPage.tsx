@@ -1,7 +1,7 @@
 import { useState } from "react";
 import type { MedicalTerm } from "../types/medicalTerm";
 import {
-  parseTermsText,
+  parseTermsFile,
   saveTerms,
   resetTerms,
   getSavedTerms,
@@ -29,8 +29,7 @@ export default function DataPage() {
     const file = e.target.files?.[0];
     if (!file) return;
     try {
-      const text = await file.text();
-      const terms = parseTermsText(text, file.name);
+      const terms = await parseTermsFile(file);
       if (terms.length === 0) {
         setPreview(null);
         setError("용어를 하나도 읽지 못했어요. 헤더(english,korean,meaning…)와 형식을 확인해 주세요.");
@@ -40,7 +39,7 @@ export default function DataPage() {
       setFileName(file.name);
     } catch (err) {
       setPreview(null);
-      setError("파일을 읽는 중 오류가 났어요. CSV 또는 JSON 형식인지 확인해 주세요.");
+      setError("파일을 읽는 중 오류가 났어요. 엑셀(.xlsx)·CSV·JSON 형식인지 확인해 주세요.");
       console.error(err);
     }
   };
@@ -74,7 +73,7 @@ export default function DataPage() {
     <section className="data">
       <h2>데이터 관리</h2>
       <p className="data-desc">
-        의학용어를 <strong>CSV 또는 JSON 파일로 첨부</strong>해 업데이트합니다.
+        의학용어를 <strong>엑셀(.xlsx)·CSV·JSON 파일로 첨부</strong>해 업데이트합니다.
         파일은 서버로 올라가지 않고 <strong>내 브라우저에만 저장</strong>됩니다.
       </p>
 
@@ -95,8 +94,13 @@ export default function DataPage() {
 
       <div className="data-upload">
         <label className="file-label">
-          📎 파일 첨부 (.csv / .json)
-          <input type="file" accept=".csv,.json" onChange={handleFile} hidden />
+          📎 파일 첨부 (.xlsx / .csv / .json)
+          <input
+            type="file"
+            accept=".xlsx,.xls,.csv,.json"
+            onChange={handleFile}
+            hidden
+          />
         </label>
         <button className="reset-btn" onClick={doReset}>기본 용어로 되돌리기</button>
       </div>
