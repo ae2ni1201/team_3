@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { MedicalTerm } from "../types/medicalTerm";
 import { fetchTerms } from "../services/termsSource";
+import { markUnknown } from "../services/reviewStore";
 import "./QuizPage.css";
 
 // 퀴즈 화면 (팀원 B · 기능 담당 · F-7/F-8).
@@ -61,6 +62,14 @@ export default function QuizPage() {
     setDone(false);
   }, [questions]);
 
+  // 퀴즈가 끝나면 틀린 문제를 오답노트에 저장한다.
+  useEffect(() => {
+    if (!done) return;
+    questions.forEach((qq, i) => {
+      if (picked[i] !== qq.answer) markUnknown(qq.term.id);
+    });
+  }, [done]);
+
   if (loading) return <p className="status">문제를 준비하는 중…</p>;
   if (questions.length === 0)
     return <p className="status">문제를 만들 용어가 부족해요.</p>;
@@ -93,7 +102,7 @@ export default function QuizPage() {
         </p>
         {wrongList.length > 0 && (
           <div className="quiz-review">
-            <h3>틀린 문제 다시 보기</h3>
+            <h3>틀린 문제 다시 보기 <span className="quiz-saved">· 오답노트에 저장됨</span></h3>
             <ul>
               {wrongList.map((qq) => (
                 <li key={qq.term.id}>
